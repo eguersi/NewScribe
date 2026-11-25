@@ -110,11 +110,15 @@ pnpm dist:mac
 
 Windows 和 macOS 的打包配置在 [`electron-builder.yml`](electron-builder.yml)。macOS 的签名、公证和 ad-hoc 签名说明见 [`MAC-HANDOFF.md`](MAC-HANDOFF.md)。
 
+发布安装包的步骤、文件命名和 GitHub Releases 说明见 [`RELEASING.md`](RELEASING.md)。
+
 ## 界面与帮助
 
 - 官网：<https://eguersi.github.io/NewScribe/>
 - 中文帮助：<https://eguersi.github.io/NewScribe/help-web/zh/index.html>
 - English help：<https://eguersi.github.io/NewScribe/help-web/en/index.html>
+
+官网和帮助由 GitHub Pages 发布。仓库的 Pages Source 需要设为 **GitHub Actions**；`docs/index.html` 是官网首页，`docs/help-web/` 是帮助页面。
 
 帮助网页也可以直接打开：
 
