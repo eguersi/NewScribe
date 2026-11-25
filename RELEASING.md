@@ -163,7 +163,7 @@ gh release create v0.1.1 \
   release/NewScribe-0.1.1-portable.exe \
   release/SHA256SUMS.txt \
   --title "NewScribe 0.1.1" \
-  --notes-file RELEASE_NOTES.md
+  --generate-notes
 ```
 
 Mac 构建的 DMG 单独上传：
