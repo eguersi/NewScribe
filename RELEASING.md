@@ -236,6 +236,16 @@ MIT
 Settings → Pages → Build and deployment → Source: GitHub Actions
 ```
 
+如果 Actions 的 Pages 部署持续失败，改用：
+
+```text
+Settings → Pages → Build and deployment → Source: Deploy from a branch
+Branch: main
+Folder: /docs
+```
+
+`docs/.nojekyll` 已加入，避免 Jekyll 处理静态资源。
+
 发布地址：
 
 ```text

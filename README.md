@@ -125,6 +125,8 @@ Windows 和 macOS 的打包配置在 [`electron-builder.yml`](electron-builder.y
 
 官网和帮助由 GitHub Pages 发布。仓库的 Pages Source 需要设为 **GitHub Actions**；`docs/index.html` 是官网首页，`docs/help-web/` 是帮助页面。
 
+如果 GitHub Actions 的 Pages 部署一直失败，也可以改用更稳妥的静态部署方式：`Settings → Pages → Build and deployment → Deploy from a branch`，分支选 `main`，目录选 `/docs`。`docs/.nojekyll` 已加入，避免 Jekyll 处理静态资源。
+
 帮助网页也可以直接打开：
 
 ```text
