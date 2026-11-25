@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="#1a1a1a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 耳朵 -->
+  <path d="M150 150 L120 60 L210 110" fill="#fff"/>
+  <path d="M362 150 L392 60 L302 110" fill="#fff"/>
+  <path d="M140 130 L128 88 L180 112" fill="#1a1a1a" stroke="none"/>
+  <path d="M372 130 L384 88 L332 112" fill="#1a1a1a" stroke="none"/>
+  <!-- 头部 -->
+  <ellipse cx="256" cy="220" rx="150" ry="130" fill="#fff"/>
+  <!-- 眼镜 -->
+  <circle cx="196" cy="205" r="46" fill="#fff"/>
+  <circle cx="316" cy="205" r="46" fill="#fff"/>
+  <path d="M242 205 Q256 195 270 205"/>
+  <path d="M150 200 L120 190"/>
+  <path d="M362 200 L392 190"/>
+  <!-- 眼睛 -->
+  <ellipse cx="196" cy="208" rx="13" ry="17" fill="#1a1a1a" stroke="none"/>
+  <ellipse cx="316" cy="208" rx="13" ry="17" fill="#1a1a1a" stroke="none"/>
+  <circle cx="201" cy="201" r="4.5" fill="#fff" stroke="none"/>
+  <circle cx="321" cy="201" r="4.5" fill="#fff" stroke="none"/>
+  <!-- 鼻子 -->
+  <path d="M244 258 L268 258 L256 272 Z" fill="#1a1a1a" stroke="none"/>
+  <!-- 嘴巴 -->
+  <path d="M256 272 L256 284"/>
+  <path d="M256 284 Q236 302 220 288"/>
+  <path d="M256 284 Q276 302 292 288"/>
+  <!-- 胡须 -->
+  <path d="M150 250 L80 238"/>
+  <path d="M150 268 L78 268"/>
+  <path d="M150 286 L82 298"/>
+  <path d="M362 250 L432 238"/>
+  <path d="M362 268 L434 268"/>
+  <path d="M362 286 L430 298"/>
+  <!-- 身体 -->
+  <path d="M180 330 Q150 400 160 470 L352 470 Q362 400 332 330" fill="#fff"/>
+  <!-- 前爪 -->
+  <path d="M196 470 Q196 440 220 440 Q244 440 244 470"/>
+  <path d="M268 470 Q268 440 292 440 Q316 440 316 470"/>
+  <!-- 尾巴 -->
+  <path d="M352 440 Q430 430 420 360 Q414 320 380 330" fill="#fff"/>
+</svg>

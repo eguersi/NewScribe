@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>关于 NewScribe · NewScribe 帮助中心</title>
+  <link rel="icon" href="../assets/icons/newscribe-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/help.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="../assets/icons/newscribe-logo.svg" alt="">
+      <span><strong>NewScribe</strong><small>帮助中心</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="帮助分类"><a href="01-start.html" class="">入门</a><a href="02-projects.html" class="">工程</a><a href="03-canvas.html" class="">编辑</a><a href="04-assets-svg.html" class="">素材</a><a href="06-animation.html" class="">动画</a><a href="11-export.html" class="">导出</a><a href="12-preferences.html" class="">设置</a><a href="13-troubleshooting.html" class="">排错</a></nav>
+    <div class="top-actions">
+      <a class="about-link" href="about.html">关于</a>
+      <a class="lang-switch" href="../en/about.html" title="English about page" aria-label="English about page"><img src="../assets/icons/translate.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="main" id="main">
+    <div class="landing about-page">
+      <section class="about-card">
+        <p class="eyebrow">NewScribe · 关于</p>
+        <h1>把想法，画成视频。</h1>
+        <p class="about-lede">NewScribe 是一个本地优先的手绘白板动画工作台。它把图片、SVG、文字、图形、图表、公式、分子结构和音标放在同一张画布上，用确定性的镜头时间轴制作动画并导出 MP4。</p>
+        <div class="about-actions">
+          <a class="button" href="index.html">打开帮助中心</a>
+          <a class="button ghost" href="../en/index.html">English help</a>
+        </div>
+      </section>
+
+      <section class="about-card">
+        <h2>技术路线</h2>
+        <p>桌面应用使用 <a href="https://www.electronjs.org/" target="_blank" rel="noopener noreferrer">Electron</a> 的主进程和预加载层，界面使用 <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>。画布使用 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" target="_blank" rel="noopener noreferrer">Canvas 2D</a> 做确定性逐帧渲染，状态管理使用 <a href="https://github.com/pmndrs/zustand" target="_blank" rel="noopener noreferrer">Zustand</a>。</p>
+        <p>导出使用 <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API" target="_blank" rel="noopener noreferrer">WebCodecs</a> 和 <a href="https://github.com/Vanilagy/mp4-muxer" target="_blank" rel="noopener noreferrer">mp4-muxer</a> 编码 H.264/AAC 并封装 MP4。公式由 <a href="https://www.mathjax.org/" target="_blank" rel="noopener noreferrer">MathJax</a> 和 <a href="https://mhchem.github.io/MathJax-mhchem/" target="_blank" rel="noopener noreferrer">mhchem</a> 渲染；分子结构由 <a href="https://www.rdkit.org/" target="_blank" rel="noopener noreferrer">RDKit</a> <a href="https://webassembly.org/" target="_blank" rel="noopener noreferrer">WebAssembly</a> 渲染；国际音标使用 <a href="https://fonts.google.com/noto/specimen/Noto+Sans" target="_blank" rel="noopener noreferrer">Noto Sans</a>。</p>
+      </section>
+
+      <section class="about-card">
+        <h2>引用与许可</h2>
+        <p>感谢这些开源项目。许可与版权归其作者所有。</p>
+        <p>
+          <a href="https://www.mathjax.org/" target="_blank" rel="noopener noreferrer">MathJax</a>
+          / <a href="https://mhchem.github.io/MathJax-mhchem/" target="_blank" rel="noopener noreferrer">mhchem</a>
+          (Apache-2.0) · <a href="https://www.rdkit.org/" target="_blank" rel="noopener noreferrer">RDKit</a>
+          / <a href="https://github.com/rdkit/rdkit-js" target="_blank" rel="noopener noreferrer">@rdkit/rdkit</a>
+          (BSD-3-Clause) · <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>,
+          <a href="https://www.electronjs.org/" target="_blank" rel="noopener noreferrer">Electron</a>,
+          <a href="https://github.com/pmndrs/zustand" target="_blank" rel="noopener noreferrer">Zustand</a>,
+          <a href="https://github.com/101arrowz/fflate" target="_blank" rel="noopener noreferrer">fflate</a>,
+          <a href="https://github.com/kazuhikoarase/qrcode-generator" target="_blank" rel="noopener noreferrer">qrcode-generator</a>,
+          <a href="https://github.com/Vanilagy/mp4-muxer" target="_blank" rel="noopener noreferrer">mp4-muxer</a>
+          (MIT) · <a href="https://fonts.google.com/noto/specimen/Noto+Sans" target="_blank" rel="noopener noreferrer">Noto Sans</a>
+          (SIL OFL-1.1)
+        </p>
+      </section>
+
+      <section class="about-card">
+        <h2>项目、作者与许可</h2>
+        <p>NewScribe 0.1.1 · 作者：祝鱼贵（Eguersi）· MIT License</p>
+        <p>
+          <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a>
+          · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a>
+          · <a href="https://github.com/eguersi/NewScribe/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>
+        </p>
+        <p>NewScribe 受 Sparkol VideoScribe 启发，但不包含任何 VideoScribe 代码。代码使用 DeepSeek V4.1 Flash 1017 模型进行 Vibe Coding 制作。NewScribe logo 和三种文件格式图标由 Eguersi 设计。</p>
+        <p>
+          <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">如果觉得 NewScribe 有用，欢迎在 GitHub 点个 Star。</a>
+        </p>
+        <details class="license-details">
+          <summary>MIT License 原文</summary>
+          <pre class="license-text">MIT License
+
+Copyright (c) 2026 祝鱼贵 (Eguersi)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</pre>
+        </details>
+      </section>
+
+      <section class="about-card about-footer-card">
+        <span>NewScribe · 本地优先的白板动画工具</span>
+        <a class="button ghost" href="index.html">返回帮助</a>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>NewScribe 用户帮助 · 本地优先的白板动画工具</span>
+      <span><a href="index.html">目录</a> · <a href="../en/about.html">EN</a> · <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a></span>
+    </div>
+  </footer>
+  <script src="../assets/help.js"></script>
+</body>
+</html>

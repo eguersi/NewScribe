@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data safety and troubleshooting · NewScribe Help Center</title>
+  <meta name="description" content="Backup and recovery, missing assets, stuck exports, black frames, fonts and performance.">
+  <link rel="icon" href="../assets/icons/newscribe-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/help.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="../assets/icons/newscribe-logo.svg" alt="">
+      <span><strong>NewScribe</strong><small>Help Center</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="Help categories"><a href="01-start.html" class="">Start</a><a href="02-projects.html" class="">Projects</a><a href="03-canvas.html" class="">Editing</a><a href="04-assets-svg.html" class="">Assets</a><a href="06-animation.html" class="">Animation</a><a href="11-export.html" class="">Export</a><a href="12-preferences.html" class="">Settings</a><a href="13-troubleshooting.html" class="active">Troubleshoot</a></nav>
+    <div class="top-actions">
+      <a class="about-link" href="about.html">About</a>
+      <a class="lang-switch" href="../zh/13-troubleshooting.html" title="Chinese help" aria-label="Chinese help"><img src="../assets/icons/translate.svg" alt=""></a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open contents" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-title">Help contents</p>
+      <input class="sidebar-search" type="search" placeholder="Filter chapters…" aria-label="Filter chapters" data-nav-search>
+      <div class="sidebar-group">
+  <p class="sidebar-group-label">Start</p>
+  <a class="nav-item " href="01-start.html" data-nav-item data-search="Getting started What NewScribe is, what it does not do, and the first steps of a new project."><span>01</span>First steps</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Projects</p>
+  <a class="nav-item " href="02-projects.html" data-nav-item data-search="Project formats and saving Local projects, share packages and VideoScribe imports, plus saving, backup and recovery."><span>02</span>Projects and files</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Editing</p>
+  <a class="nav-item " href="03-canvas.html" data-nav-item data-search="Interface and canvas The toolbar, canvas, inspector and timeline; selecting, transforming, copying and auto-pan."><span>03</span>Interface and canvas</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Assets and text</p>
+  <a class="nav-item " href="04-assets-svg.html" data-nav-item data-search="Assets and SVG Images, GIFs, audio and SVG; vector versus bitmap, SVG basics and asset licensing."><span>04</span>Assets and SVG</a>
+<a class="nav-item " href="05-text-fonts.html" data-nav-item data-search="Text and fonts Text, vertical layout, typewriter, font selection, licensing and SVG text."><span>05</span>Text and fonts</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Animation</p>
+  <a class="nav-item " href="06-animation.html" data-nav-item data-search="Animation and camera Appearances, disappearances, vector and bitmap draw, composite fade, timing and camera."><span>06</span>Animation and camera</a>
+<a class="nav-item " href="07-hands-masks.html" data-nav-item data-search="Hands and masks Built-in and custom hands, visual pen-tip picking, and the three mask modes."><span>07</span>Hands and masks</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Content</p>
+  <a class="nav-item " href="08-elements.html" data-nav-item data-search="Shapes, charts and subject elements Shape editor, charts, tables, QR codes, mind maps, formulas, molecules and IPA."><span>08</span>Shapes and content</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Library</p>
+  <a class="nav-item " href="09-library-ai.html" data-nav-item data-search="Library and AI Local libraries, VideoScribe library, web asset search and AI-generated SVG."><span>09</span>Library and AI</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Output</p>
+  <a class="nav-item " href="10-audio.html" data-nav-item data-search="Audio and video information Two tracks, volume and fades, plus the video information written at export."><span>10</span>Audio and metadata</a>
+<a class="nav-item " href="11-export.html" data-nav-item data-search="Preview and export Preview checks, export settings, stages, logs and failure diagnosis."><span>11</span>Preview and export</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Settings and troubleshooting</p>
+  <a class="nav-item " href="12-preferences.html" data-nav-item data-search="Preferences and shortcuts Defaults, autosave, startup, sources, AI configuration and shortcuts."><span>12</span>Preferences and shortcuts</a>
+<a class="nav-item active" href="13-troubleshooting.html" data-nav-item data-search="Data safety and troubleshooting Backup and recovery, missing assets, stuck exports, black frames, fonts and performance."><span>13</span>Safety and troubleshooting</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Appendix</p>
+  <a class="nav-item " href="14-workflow.html" data-nav-item data-search="Production workflow and glossary From script to final cut, shot design, checks and common terms."><span>14</span>Workflow and glossary</a>
+</div>
+      <p class="sidebar-foot">NewScribe is a local-first<br>whiteboard animation tool.</p>
+    </aside>
+    <div class="sidebar-backdrop" data-sidebar-backdrop></div>
+    <main class="main" id="main">
+      <div class="breadcrumb"><a href="index.html">Help Center</a> / Safety and troubleshooting</div>
+      <div class="page-layout">
+        <article class="article">
+          <header class="page-hero">
+            <p class="eyebrow">NewScribe user help</p>
+            <h1>Data safety and troubleshooting</h1>
+            <p class="lede">Backup and recovery, missing assets, stuck exports, black frames, fonts and performance.</p>
+          </header>
+          <div class="content">
+            
+            <h2 id="safety">21. Data safety and recovery<a class="heading-anchor" href="#safety" aria-label="复制本段链接">#</a></h2>
+<p><span class="icon-term"><a href="02-projects.html#save"><img class="inline-icon" src="../assets/icons/save.svg" alt="" loading="lazy">Save</a></span> keeps the previous version as:</p>
+<pre><code>project.nscribe.bak
+project.nspkg.bak</code></pre>
+<p>If the main file is damaged, opening it will try the backup automatically.</p>
+<h3 id="protect-the-files-first">Protect the files first<a class="heading-anchor" href="#protect-the-files-first" aria-label="复制本段链接">#</a></h3>
+<p>If a project will not open, first copy the project, <code>.assets</code> folder and <code>.bak</code> file to a safe place. Do not repeatedly overwrite the original while trying to recover it.</p>
+<p>Then check:</p>
+<ol><li>Does the project file exist?</li><li>Does the <code>.bak</code> file exist?</li><li>Is the <code>.assets</code> folder next to the project?</li><li>Is another program locking the file?</li><li>Has the folder been moved or synchronized by OneDrive or another tool?</li></ol>
+<h3 id="recovering-a-damaged-project">Recovering a damaged project<a class="heading-anchor" href="#recovering-a-damaged-project" aria-label="复制本段链接">#</a></h3>
+<p>Keep the original damaged file. Copy the <code>.bak</code> file and rename the copy to the original extension, then try opening it.</p>
+<p>If the backup is also damaged, copy the project and assets to another local drive and try again. Do not manually rename files inside <code>.assets</code>; their names are content-based.</p>
+<h3 id="missing-assets">Missing assets<a class="heading-anchor" href="#missing-assets" aria-label="复制本段链接">#</a></h3>
+<p>Put the <code>.assets</code> folder back next to the project, or use Relink. Relinking updates the project reference; it does not re-import the asset.</p>
+<p>If the asset is permanently gone, import a replacement and set its position, appearance and <span class="icon-term"><a href="06-animation.html#camera"><img class="inline-icon" src="../assets/icons/camera-frame.svg" alt="" loading="lazy">camera</a></span> again.</p>
+<h3 id="export-is-stuck">Export is stuck<a class="heading-anchor" href="#export-is-stuck" aria-label="复制本段链接">#</a></h3>
+<p>Look at the last line of the export log.</p>
+<p>If it is still updating, the export may still be working. If there is no change for several minutes, it may be stuck.</p>
+<p>Try:</p>
+<ul><li>lowering the resolution</li><li>reducing the number of elements in that time range</li><li>simplifying complex <span class="icon-term"><a href="04-assets-svg.html#svg">SVG</a></span></li><li>closing other GPU/memory-heavy programs</li><li>restarting NewScribe</li><li>ensuring enough disk space</li></ul>
+<p>Do not delete a file while it is being written.</p>
+<h3 id="black-frames-or-wrong-frames">Black frames or wrong frames<a class="heading-anchor" href="#black-frames-or-wrong-frames" aria-label="复制本段链接">#</a></h3>
+<p>If preview is correct but export is black, lower the resolution and test again. Large images, complex SVG, dynamic SVG and many masks increase memory and GPU pressure.</p>
+<p>If only one element is wrong, inspect its asset, size, appearance mode and timeline position. If everything is black, check the output frame, camera and masks; a <span class="icon-term"><a href="07-hands-masks.html#masks"><img class="inline-icon" src="../assets/icons/mask.svg" alt="" loading="lazy">mask</a></span> covering the whole frame leaves only the background.</p>
+<h3 id="fonts-look-different">Fonts look different<a class="heading-anchor" href="#fonts-look-different" aria-label="复制本段链接">#</a></h3>
+<p>A missing font changes line breaks, width and positioning. Check that the font is installed. A shared project does not contain font files. If exact typography is essential, convert critical <span class="icon-term"><a href="05-text-fonts.html#text"><img class="inline-icon" src="../assets/icons/text.svg" alt="" loading="lazy">text</a></span> to graphics.</p>
+<h3 id="performance-checklist">Performance checklist<a class="heading-anchor" href="#performance-checklist" aria-label="复制本段链接">#</a></h3>
+<p>Check project size first, then assets, then animation complexity, then the computer. Large images, complex SVG, many masks and bitmap drawing are common costs. Do not assume the application alone is responsible.</p>
+<h2 id="faq">22. FAQ<a class="heading-anchor" href="#faq" aria-label="复制本段链接">#</a></h2>
+<h3 id="why-is-there-no-mp4-after-saving">Why is there no MP4 after saving?<a class="heading-anchor" href="#why-is-there-no-mp4-after-saving" aria-label="复制本段链接">#</a></h3>
+<p>Saving creates an editable project. Use <span class="icon-term"><a href="11-export.html#export"><img class="inline-icon" src="../assets/icons/export.svg" alt="" loading="lazy">Export video</a></span> to create an MP4.</p>
+<h3 id="why-does-someone-else-see-missing-assets">Why does someone else see missing assets?<a class="heading-anchor" href="#why-does-someone-else-see-missing-assets" aria-label="复制本段链接">#</a></h3>
+<p>You sent <code>.nscribe</code> without its <code>.assets</code> folder. Send <code>.nspkg</code> instead.</p>
+<h3 id="why-does-an-svg-draw-only-part-of-the-image">Why does an SVG draw only part of the image?<a class="heading-anchor" href="#why-does-an-svg-draw-only-part-of-the-image" aria-label="复制本段链接">#</a></h3>
+<p>The SVG may have very complex paths or unsupported structure, so NewScribe falls back to bitmap drawing. Simplify it in <span class="icon-term"><a href="https://inkscape.org/" target="_blank" rel="noopener noreferrer">Inkscape</a></span>, remove hidden or unnecessary paths, or use bitmap draw.</p>
+<h3 id="why-do-fonts-or-svg-text-look-wrong">Why do fonts or SVG text look wrong?<a class="heading-anchor" href="#why-do-fonts-or-svg-text-look-wrong" aria-label="复制本段链接">#</a></h3>
+<p>Check that the font is installed. SVG font overrides store the font name, not the font file. The recipient needs the same font.</p>
+<h3 id="why-is-export-slow">Why is export slow?<a class="heading-anchor" href="#why-is-export-slow" aria-label="复制本段链接">#</a></h3>
+<p>Long duration, high resolution, large images, complex paths, many masks and limited encoder performance all increase time. Test at a lower resolution first.</p>
+<h3 id="why-is-the-hand-in-the-wrong-place">Why is the hand in the wrong place?<a class="heading-anchor" href="#why-is-the-hand-in-the-wrong-place" aria-label="复制本段链接">#</a></h3>
+<p>Set the pen tip with visual pick on the custom <span class="icon-term"><a href="07-hands-masks.html#hands"><img class="inline-icon" src="../assets/icons/hand.svg" alt="" loading="lazy">hand</a></span> <span class="icon-term"><a href="04-assets-svg.html#assets"><img class="inline-icon" src="../assets/icons/image.svg" alt="" loading="lazy">image</a></span>. Click the actual point where the pen meets the board.</p>
+<h3 id="why-did-ai-generation-fail">Why did AI generation fail?<a class="heading-anchor" href="#why-did-ai-generation-fail" aria-label="复制本段链接">#</a></h3>
+<p>Check the Base URL, model, API key, network connection and whether the service supports an OpenAI-compatible API.</p>
+<h3 id="why-can-t-i-download-a-web-asset">Why can't I download a web asset?<a class="heading-anchor" href="#why-can-t-i-download-a-web-asset" aria-label="复制本段链接">#</a></h3>
+<p>Check that the source is enabled, the network is available, the asset still exists and the site is not blocking downloads.</p>
+            
+            <nav class="pager" aria-label="Chapter navigation">
+  <a href="12-preferences.html"><small>Previous</small>Preferences and shortcuts</a>
+  <a class="next" href="14-workflow.html"><small>Next</small>Workflow and glossary</a>
+</nav>
+          </div>
+        </article>
+        <aside class="page-toc">
+  <p class="page-toc-title">On this page</p>
+  <a href="#safety" class="">Data safety and recovery</a>
+<a href="#protect-the-files-first" class="toc-sub">Protect the files first</a>
+<a href="#recovering-a-damaged-project" class="toc-sub">Recovering a damaged project</a>
+<a href="#missing-assets" class="toc-sub">Missing assets</a>
+<a href="#export-is-stuck" class="toc-sub">Export is stuck</a>
+<a href="#black-frames-or-wrong-frames" class="toc-sub">Black frames or wrong frames</a>
+<a href="#fonts-look-different" class="toc-sub">Fonts look different</a>
+<a href="#performance-checklist" class="toc-sub">Performance checklist</a>
+<a href="#faq" class="">FAQ</a>
+<a href="#why-is-there-no-mp4-after-saving" class="toc-sub">Why is there no MP4 after saving?</a>
+<a href="#why-does-someone-else-see-missing-assets" class="toc-sub">Why does someone else see missing assets?</a>
+<a href="#why-does-an-svg-draw-only-part-of-the-image" class="toc-sub">Why does an SVG draw only part of the image?</a>
+<a href="#why-do-fonts-or-svg-text-look-wrong" class="toc-sub">Why do fonts or SVG text look wrong?</a>
+<a href="#why-is-export-slow" class="toc-sub">Why is export slow?</a>
+<a href="#why-is-the-hand-in-the-wrong-place" class="toc-sub">Why is the hand in the wrong place?</a>
+<a href="#why-did-ai-generation-fail" class="toc-sub">Why did AI generation fail?</a>
+<a href="#why-can-t-i-download-a-web-asset" class="toc-sub">Why can't I download a web asset?</a>
+</aside>
+      </div>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>NewScribe user help · local-first whiteboard animation</span>
+      <span><a href="index.html">Contents</a> · <a href="../zh/13-troubleshooting.html">中文</a> · <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a></span>
+    </div>
+  </footer>
+  <script src="../assets/help.js"></script>
+</body>
+</html>

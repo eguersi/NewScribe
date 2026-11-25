@@ -1,0 +1,98 @@
+appId: com.newscribe.app
+productName: NewScribe
+copyright: Copyright © 2026 祝鱼贵 (Eguersi)
+
+directories:
+  output: release
+  buildResources: build
+
+extraResources:
+  - from: build/icon.png
+    to: icon.png
+  - from: build/help-icon.png
+    to: help-icon.png
+  - from: build/folder.ico
+    to: folder.ico
+  - from: build/icon-nscribe.ico
+    to: icon-nscribe.ico
+  - from: build/icon-scribe.ico
+    to: icon-scribe.ico
+  - from: build/icon-nscribe-file.ico
+    to: icon-nscribe-file.ico
+  - from: build/icon-scribe-file.ico
+    to: icon-scribe-file.ico
+  - from: build/icon-nspkg-file.ico
+    to: icon-nspkg-file.ico
+  - from: build/menu
+    to: menu
+  - from: docs/help-web
+    to: help-web
+
+files:
+  - out/**/*
+  - package.json
+  - '!**/*.map'
+  - '!node_modules/**/*'
+
+asar: true
+
+# macOS 无证书时做 ad-hoc 签名，避免下载后 Gatekeeper 报“已损坏”
+afterPack: build/afterPack.cjs
+
+win:
+  icon: build/icon.png
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+  artifactName: ${productName}-${version}-setup.${ext}
+
+portable:
+  artifactName: ${productName}-${version}-portable.${ext}
+
+fileAssociations:
+  - ext: nscribe
+    name: NewScribe Project
+    description: NewScribe Project
+    icon: build/icon-nscribe-file.ico
+    role: Editor
+  - ext: nspkg
+    name: NewScribe Share Project
+    description: NewScribe single-file share project
+    icon: build/icon-nspkg-file.ico
+    role: Editor
+
+nsis:
+  include: build/installer.nsh
+  installerIcon: build/installerIcon.ico
+  uninstallerIcon: build/installerIcon.ico
+  installerSidebar: build/installerSidebar.bmp
+  uninstallerSidebar: build/installerSidebar.bmp
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: NewScribe
+  displayLanguageSelector: true
+  installerLanguages:
+    - zh_CN
+    - en_US
+
+mac:
+  icon: build/icon.icns
+  target:
+    - dmg
+    - zip
+  category: public.app-category.video
+  artifactName: ${productName}-${version}-${arch}.${ext}
+  darkModeSupport: true
+
+dmg:
+  icon: build/dmg-icon.icns
+  title: ${productName} ${version}
+  artifactName: ${productName}-${version}-${arch}.${ext}

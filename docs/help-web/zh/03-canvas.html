@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>界面与画布 · NewScribe 帮助中心</title>
+  <meta name="description" content="认识工具栏、画布、属性面板和时间轴，并掌握选择、变换、复制和自动平移。">
+  <link rel="icon" href="../assets/icons/newscribe-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/help.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="../assets/icons/newscribe-logo.svg" alt="">
+      <span><strong>NewScribe</strong><small>帮助中心</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="帮助分类"><a href="01-start.html" class="">入门</a><a href="02-projects.html" class="">工程</a><a href="03-canvas.html" class="active">编辑</a><a href="04-assets-svg.html" class="">素材</a><a href="06-animation.html" class="">动画</a><a href="11-export.html" class="">导出</a><a href="12-preferences.html" class="">设置</a><a href="13-troubleshooting.html" class="">排错</a></nav>
+    <div class="top-actions">
+      <a class="about-link" href="about.html">关于</a>
+      <a class="lang-switch" href="../en/03-canvas.html" title="English help" aria-label="English help"><img src="../assets/icons/translate.svg" alt=""></a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开目录" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-title">帮助目录</p>
+      <input class="sidebar-search" type="search" placeholder="筛选章节…" aria-label="筛选章节" data-nav-search>
+      <div class="sidebar-group">
+  <p class="sidebar-group-label">起步</p>
+  <a class="nav-item " href="01-start.html" data-nav-item data-search="开始使用 先理解 NewScribe 是什么、它不做什么，以及第一次使用时应该先完成哪几件事。"><span>01</span>初识 NewScribe</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">工程</p>
+  <a class="nav-item " href="02-projects.html" data-nav-item data-search="工程格式与保存 本地工程、分享工程和 VideoScribe 导入格式的区别，以及保存、备份和恢复。"><span>02</span>工程与文件</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">编辑</p>
+  <a class="nav-item active" href="03-canvas.html" data-nav-item data-search="界面与画布 认识工具栏、画布、属性面板和时间轴，并掌握选择、变换、复制和自动平移。"><span>03</span>界面与画布</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">素材与文字</p>
+  <a class="nav-item " href="04-assets-svg.html" data-nav-item data-search="素材与 SVG 导入图片、GIF、音频和 SVG；理解矢量图、位图以及素材版权。"><span>04</span>素材与 SVG</a>
+<a class="nav-item " href="05-text-fonts.html" data-nav-item data-search="文字与字体 文字、竖排、打字机、字体选择、字体版权和 SVG 内部文字。"><span>05</span>文字与字体</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">动画</p>
+  <a class="nav-item " href="06-animation.html" data-nav-item data-search="动画与镜头 出现动画、消失动画、矢量描绘、位图描绘、复合淡入、时间和镜头。"><span>06</span>动画与镜头</a>
+<a class="nav-item " href="07-hands-masks.html" data-nav-item data-search="手势与蒙版 内置与自定义手势、笔尖可视化取点，以及三种蒙版作用方式。"><span>07</span>手势与蒙版</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">内容元素</p>
+  <a class="nav-item " href="08-elements.html" data-nav-item data-search="图形、图表与学科元素 图形编辑器、图表、表格、二维码、思维导图、公式、分子结构和国际音标。"><span>08</span>图形与内容元素</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">资源</p>
+  <a class="nav-item " href="09-library-ai.html" data-nav-item data-search="素材库与 AI 本地素材库、VideoScribe 素材库、网络素材搜索和 AI 生成 SVG。"><span>09</span>素材库与 AI</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">输出</p>
+  <a class="nav-item " href="10-audio.html" data-nav-item data-search="音频与视频信息 两条音轨、音量与淡入淡出，以及导出前的视频信息。"><span>10</span>音频与元数据</a>
+<a class="nav-item " href="11-export.html" data-nav-item data-search="预览与导出 预览检查、导出设置、编码阶段、日志和失败排查。"><span>11</span>预览与导出</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">设置与排错</p>
+  <a class="nav-item " href="12-preferences.html" data-nav-item data-search="首选项与快捷键 默认值、自动保存、启动行为、素材来源、AI 配置和常用快捷键。"><span>12</span>首选项与快捷键</a>
+<a class="nav-item " href="13-troubleshooting.html" data-nav-item data-search="数据安全与故障处理 备份与恢复、素材丢失、导出卡住、黑屏、字体问题和性能排查。"><span>13</span>数据安全与排错</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">附录</p>
+  <a class="nav-item " href="14-workflow.html" data-nav-item data-search="制作流程与术语 从脚本到成片的工作流、镜头拆分、导出前检查和常用术语。"><span>14</span>制作流程与术语</a>
+</div>
+      <p class="sidebar-foot">NewScribe 是一款本地运行的<br>手绘白板动画制作工具。</p>
+    </aside>
+    <div class="sidebar-backdrop" data-sidebar-backdrop></div>
+    <main class="main" id="main">
+      <div class="breadcrumb"><a href="index.html">帮助中心</a> / 界面与画布</div>
+      <div class="page-layout">
+        <article class="article">
+          <header class="page-hero">
+            <p class="eyebrow">NewScribe 用户帮助</p>
+            <h1>界面与画布</h1>
+            <p class="lede">认识工具栏、画布、属性面板和时间轴，并掌握选择、变换、复制和自动平移。</p>
+          </header>
+          <div class="content">
+            <figure class="shot"><img src="../assets/screenshots/editor-light.png" alt="NewScribe 画布、右侧属性面板和底部时间轴" loading="lazy"><figcaption>浅色编辑器中的蓝色输出框、橙色元素边框和棕色虚线蒙版框。</figcaption></figure>
+            <hr>
+
+<div class="icon-grid">
+  <div class="icon-card"><img src="../assets/icons/camera-frame.svg" alt="">固定视角 / 机位</div>
+  <div class="icon-card"><img src="../assets/icons/save.svg" alt="">保存</div>
+  <div class="icon-card"><img src="../assets/icons/export.svg" alt="">导出视频</div>
+  <div class="icon-card"><img src="../assets/icons/preview.svg" alt="">预览</div>
+  <div class="icon-card"><img src="../assets/icons/mask.svg" alt="">蒙版</div>
+  <div class="icon-card"><img src="../assets/icons/hand.svg" alt="">手势</div>
+  <div class="icon-card"><img src="../assets/icons/folder.svg" alt="">素材库</div>
+  <div class="icon-card"><img src="../assets/icons/sparkles.svg" alt="">AI 生成</div>
+</div>
+<h2 id="section-4">4. 主界面<a class="heading-anchor" href="#section-4" aria-label="复制本段链接">#</a></h2>
+<p>NewScribe 的界面大致分为四个区域。</p>
+<p>顶部是工具栏，放<span class="icon-term"><a href="01-start.html#quick-start"><img class="inline-icon" src="../assets/icons/new-document.svg" alt="" loading="lazy">新建</a></span>、打开、<span class="icon-term"><a href="02-projects.html#save"><img class="inline-icon" src="../assets/icons/save.svg" alt="" loading="lazy">保存</a></span>、导入素材、<span class="icon-term"><a href="05-text-fonts.html#text"><img class="inline-icon" src="../assets/icons/text.svg" alt="" loading="lazy">文字</a></span>、图形、<span class="icon-term"><a href="08-elements.html#charts"><img class="inline-icon" src="../assets/icons/chart.svg" alt="" loading="lazy">图表</a></span>、<span class="icon-term"><a href="11-export.html#preview"><img class="inline-icon" src="../assets/icons/preview.svg" alt="" loading="lazy">预览</a></span>、导出、首选项和帮助等入口。</p>
+<p>中间是画布。画布中的蓝色边框表示最终视频会拍到的输出范围。</p>
+<p>右侧是属性面板。它会根据当前选中的对象显示画布、元素、文字、动画、<span class="icon-term"><a href="07-hands-masks.html#masks"><img class="inline-icon" src="../assets/icons/mask.svg" alt="" loading="lazy">蒙版</a></span>、音频等内容。</p>
+<p>底部是时间轴。时间轴决定元素出现的先后顺序和每一段动画的时长。</p>
+<p>NewScribe 的很多设置是围绕“当前选中的元素”展开的。如果你找不到某个选项，先确认自己是否选中了正确的元素。</p>
+<hr>
+<h2 id="section-5">5. 画布与元素操作<a class="heading-anchor" href="#section-5" aria-label="复制本段链接">#</a></h2>
+<h3 id="缩放和平移">缩放和平移<a class="heading-anchor" href="#缩放和平移" aria-label="复制本段链接">#</a></h3>
+<p>鼠标滚轮可以缩放，拖动空白处可以平移。</p>
+<p>常用快捷方式：</p>
+<ul><li><code>+</code> / <code>-</code>：缩放</li><li>方向键：平移</li><li>空格 + 拖动：平移</li><li>Shift + 滚轮：左右平移</li><li>Ctrl + 滚轮：上下平移</li><li>Alt + 滚轮：快速切换元素</li></ul>
+<h3 id="拖动到边缘时自动平移">拖动到边缘时自动平移<a class="heading-anchor" href="#拖动到边缘时自动平移" aria-label="复制本段链接">#</a></h3>
+<p>把一个元素拖到可视区域边缘时，视角会自动向那个方向慢慢移动。</p>
+<p>越靠近边缘，移动速度越快。这样可以把元素拖到当前画面之外，而不需要先松手、再平移画布。</p>
+<h3 id="选择-缩放和旋转">选择、缩放和旋转<a class="heading-anchor" href="#选择-缩放和旋转" aria-label="复制本段链接">#</a></h3>
+<p>单击选择一个元素。按住 Ctrl 可以多选。</p>
+<p>拖动四周控制点可以缩放，按住 Shift 可以保持比例。</p>
+<p>拖动顶部圆点可以旋转，按住 Shift 会以 15° 为步进。</p>
+<h3 id="复制和粘贴">复制和粘贴<a class="heading-anchor" href="#复制和粘贴" aria-label="复制本段链接">#</a></h3>
+<p>选中文件后复制<code>Ctrl+C</code>，会使该元素进入剪切板</p>
+<p>和 <code>Ctrl+V</code> 使用最近一次复制的内容。</p>
+<p>右键菜单中的“复制一份”是独立操作：</p>
+<ul><li>只复制右键点击的那个元素</li><li>不读取外部剪贴板</li><li>不写入内部剪贴板</li><li>不会影响之后的普通粘贴</li></ul>
+<h3 id="多选">多选<a class="heading-anchor" href="#多选" aria-label="复制本段链接">#</a></h3>
+<p>多选后，右侧面板会只显示可以共同修改的属性。某些属性会显示“多个值”，表示不同元素当前的值不一致。</p>
+<hr>
+<h2 id="进一步说明-把界面当成四个协作区域">进一步说明：把界面当成四个协作区域<a class="heading-anchor" href="#进一步说明-把界面当成四个协作区域" aria-label="复制本段链接">#</a></h2>
+<p>NewScribe 的界面不是四块互不相干的面板，而是一条连续的编辑流程。</p>
+<p>顶部工具栏回答“我要做什么”：新建、导入、加文字、加图形、预览、导出。中间画布回答“它现在长什么样”：位置、大小、旋转、层级和输出范围。右侧属性回答“它怎么出现、怎么运动、有什么样式”。底部时间轴回答“它什么时候出现、停留多久、下一步是什么”。</p>
+<p>当你找不到某个选项时，先不要急着翻遍所有菜单。先确认三件事：当前有没有选中元素、选中的是什么类型、当前在哪个标签页。很多“选项消失”只是因为选错了对象。</p>
+<h2 id="画布-输出框和镜头不是一回事">画布、输出框和镜头不是一回事<a class="heading-anchor" href="#画布-输出框和镜头不是一回事" aria-label="复制本段链接">#</a></h2>
+<p>画布是你自由摆放元素的工作区域，输出框是最终视频会拍到的范围。</p>
+<p>元素可以放在输出框外面。它在编辑时看得见，不代表导出时一定入镜。<span class="icon-term"><a href="06-animation.html#camera"><img class="inline-icon" src="../assets/icons/camera-frame.svg" alt="" loading="lazy">镜头</a></span>的中心点和缩放决定最终视频从哪里看、看多大。</p>
+<p>如果一个元素“编辑时在，导出时不见”，先检查它是否在输出框里，再检查它的机位是否把它带出了画面。</p>
+<h2 id="选中-多选和批量修改">选中、多选和批量修改<a class="heading-anchor" href="#选中-多选和批量修改" aria-label="复制本段链接">#</a></h2>
+<p>单击选中一个元素，Ctrl 点击增加选择，Ctrl+A 全选。</p>
+<p>多选后，右侧面板只显示可以共同修改的属性。比如多个文字可以一起改颜色和字体，但不同元素的宽度可能显示为“多个值”，此时输入一个数值会统一覆盖它们。</p>
+<p>批量修改之前，建议先确认选中的元素范围。多选很容易把画布外的元素也选进来，尤其是全选之后。修改前看一眼时间轴，可以知道到底选中了哪些对象。</p>
+<h2 id="拖动边缘自动平移的使用场景">拖动边缘自动平移的使用场景<a class="heading-anchor" href="#拖动边缘自动平移的使用场景" aria-label="复制本段链接">#</a></h2>
+<p>这个功能在“把元素移到当前画面之外”时特别有用。比如你想让一个图标从画面左侧进入，可以先把它放在画面外，再设置从左向右的移动；但手动拖到画面外很麻烦，因为一到边缘就看不见了。</p>
+<p>把元素拖到边缘，视角会自动跟随，你可以继续把它放到更远的位置。松手之后，画布会保持在新位置。此时再按预览，就能看到元素从画面外进入的效果。</p>
+<p>自动平移只改变视角，不会改变元素的世界坐标。它不会自动创建关键帧，也不会改变元素的出现方式。</p>
+<h2 id="复制-粘贴和复制一份">复制、粘贴和复制一份<a class="heading-anchor" href="#复制-粘贴和复制一份" aria-label="复制本段链接">#</a></h2>
+<p>普通复制粘贴使用最近一次复制的内容。你可以从 NewScribe 内部复制元素，也可以从外部复制<span class="icon-term"><a href="04-assets-svg.html#assets"><img class="inline-icon" src="../assets/icons/image.svg" alt="" loading="lazy">图片</a></span>、文字、<span class="icon-term"><a href="04-assets-svg.html#svg">SVG</a></span>代码或其他支持的内容。</p>
+<p>“复制一份”是另一条独立路径。它只复制当前右键点击的元素，不读取外部剪贴板，也不会把内容写进内部剪贴板。因此，复制一份之后，按 <code>Ctrl+V</code> 粘贴的仍然是之前复制的内容，而不是这份副本。</p>
+<h2 id="界面空间的管理">界面空间的管理<a class="heading-anchor" href="#界面空间的管理" aria-label="复制本段链接">#</a></h2>
+<p>右侧面板和时间轴都可以占用不少空间。屏幕较小时，可以折叠不需要的面板，或者使用全屏模式。</p>
+<p>工具栏在窗口变窄时会缩短标签，只保留图标。这不是功能缺失，而是为了给画布留出空间。把窗口拉宽，标签会重新出现。</p>
+<p>如果你经常使用某个面板，可以保持它展开；不常用的面板折叠起来，画布会更清爽。</p>
+<h2 id="外观-背景和画布边界">外观、背景和画布边界<a class="heading-anchor" href="#外观-背景和画布边界" aria-label="复制本段链接">#</a></h2>
+<h3 id="外观">外观<a class="heading-anchor" href="#外观" aria-label="复制本段链接">#</a></h3>
+<p>NewScribe 支持深色、浅色和跟随系统三种界面主题。主题色也可以切换，常见选择有琥珀、蓝色、薄荷、紫色和玫瑰色。工具栏密度可以调整，用来决定界面元素排得松一些还是紧一些。</p>
+<p>这些设置只改变编辑器的外观，不会改变画布内容，也不会影响导出的视频。配色时不要让界面主题干扰对画面颜色的判断，尤其是做浅色背景或低对比度画面时，最好在预览里再确认一次。</p>
+<h3 id="背景">背景<a class="heading-anchor" href="#背景" aria-label="复制本段链接">#</a></h3>
+<p>画布背景可以使用纯色、纹理或图片。</p>
+<p>背景图片可以拉伸铺满，也可以平铺；可以固定在画面中，也可以跟随镜头移动。固定背景在镜头移动时保持不动，适合做纸张、墙面或固定纹理；跟随镜头的背景会随画布一起移动，适合让背景成为画面空间的一部分。</p>
+<p>背景不参与元素的描绘动画。如果希望背景本身也被“画出来”，应该把图片作为普通元素导入，而不是只设为背景。</p>
+<h3 id="画布-输出框和缩放">画布、输出框和缩放<a class="heading-anchor" href="#画布-输出框和缩放" aria-label="复制本段链接">#</a></h3>
+<p>编辑页面显示的是一个固定大小的画布，但画布边界不是元素的存在边界。元素可以放到画布外面，只要最终机位看得到，预览和导出仍会正常显示。</p>
+<p>默认开启「首选项 → 外观 → 编辑器展示原画布大小之外的空间」。开启后，画布外区域也使用当前背景色和纹理，方便看清和编辑画布外的元素；关闭后，画布外恢复为编辑器的灰色工作区。</p>
+<p>缩放大小要适中，过大或过小可能出现显示问题。</p>
+<h3 id="镜像和导出">镜像和导出<a class="heading-anchor" href="#镜像和导出" aria-label="复制本段链接">#</a></h3>
+<p>选中元素后可以在属性面板中水平翻转。镜像改变的是显示和导出结果，不会修改原始素材文件；对文字、公式等需要阅读的内容使用镜像前，要确认观众仍然能读懂。</p>
+<p>部分元素可以单独导出为 SVG，尤其是形状、公式、分子结构和音标等矢量内容。具体以对应元素面板中的导出按钮为准。</p>
+            
+            <nav class="pager" aria-label="Chapter navigation">
+  <a href="02-projects.html"><small>上一篇</small>工程与文件</a>
+  <a class="next" href="04-assets-svg.html"><small>下一篇</small>素材与 SVG</a>
+</nav>
+          </div>
+        </article>
+        <aside class="page-toc">
+  <p class="page-toc-title">本页目录</p>
+  <a href="#section-4" class="">主界面</a>
+<a href="#section-5" class="">画布与元素操作</a>
+<a href="#缩放和平移" class="toc-sub">缩放和平移</a>
+<a href="#拖动到边缘时自动平移" class="toc-sub">拖动到边缘时自动平移</a>
+<a href="#选择-缩放和旋转" class="toc-sub">选择、缩放和旋转</a>
+<a href="#复制和粘贴" class="toc-sub">复制和粘贴</a>
+<a href="#多选" class="toc-sub">多选</a>
+<a href="#进一步说明-把界面当成四个协作区域" class="">进一步说明：把界面当成四个协作区域</a>
+<a href="#画布-输出框和镜头不是一回事" class="">画布、输出框和镜头不是一回事</a>
+<a href="#选中-多选和批量修改" class="">选中、多选和批量修改</a>
+<a href="#拖动边缘自动平移的使用场景" class="">拖动边缘自动平移的使用场景</a>
+<a href="#复制-粘贴和复制一份" class="">复制、粘贴和复制一份</a>
+<a href="#界面空间的管理" class="">界面空间的管理</a>
+<a href="#外观-背景和画布边界" class="">外观、背景和画布边界</a>
+<a href="#外观" class="toc-sub">外观</a>
+<a href="#背景" class="toc-sub">背景</a>
+<a href="#画布-输出框和缩放" class="toc-sub">画布、输出框和缩放</a>
+<a href="#镜像和导出" class="toc-sub">镜像和导出</a>
+</aside>
+      </div>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>NewScribe 用户帮助 · 本地优先的白板动画工具</span>
+      <span><a href="index.html">目录</a> · <a href="../en/03-canvas.html">EN</a> · <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a></span>
+    </div>
+  </footer>
+  <script src="../assets/help.js"></script>
+</body>
+</html>

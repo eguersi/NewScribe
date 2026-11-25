@@ -1,0 +1,7 @@
+# pnpm 10+ 默认把“未获批准”的依赖构建脚本当作安装失败（ERR_PNPM_IGNORED_BUILDS）。
+# electron / esbuild 需要执行构建脚本；electron-winstaller 是 electron-builder 的
+# Windows 专用依赖，macOS / Linux 上用不到，这里显式跳过。
+allowBuilds:
+  electron: true
+  esbuild: true
+  electron-winstaller: false

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>手势与蒙版 · NewScribe 帮助中心</title>
+  <meta name="description" content="内置与自定义手势、笔尖可视化取点，以及三种蒙版作用方式。">
+  <link rel="icon" href="../assets/icons/newscribe-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/help.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="../assets/icons/newscribe-logo.svg" alt="">
+      <span><strong>NewScribe</strong><small>帮助中心</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="帮助分类"><a href="01-start.html" class="">入门</a><a href="02-projects.html" class="">工程</a><a href="03-canvas.html" class="">编辑</a><a href="04-assets-svg.html" class="">素材</a><a href="06-animation.html" class="active">动画</a><a href="11-export.html" class="">导出</a><a href="12-preferences.html" class="">设置</a><a href="13-troubleshooting.html" class="">排错</a></nav>
+    <div class="top-actions">
+      <a class="about-link" href="about.html">关于</a>
+      <a class="lang-switch" href="../en/07-hands-masks.html" title="English help" aria-label="English help"><img src="../assets/icons/translate.svg" alt=""></a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开目录" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-title">帮助目录</p>
+      <input class="sidebar-search" type="search" placeholder="筛选章节…" aria-label="筛选章节" data-nav-search>
+      <div class="sidebar-group">
+  <p class="sidebar-group-label">起步</p>
+  <a class="nav-item " href="01-start.html" data-nav-item data-search="开始使用 先理解 NewScribe 是什么、它不做什么，以及第一次使用时应该先完成哪几件事。"><span>01</span>初识 NewScribe</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">工程</p>
+  <a class="nav-item " href="02-projects.html" data-nav-item data-search="工程格式与保存 本地工程、分享工程和 VideoScribe 导入格式的区别，以及保存、备份和恢复。"><span>02</span>工程与文件</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">编辑</p>
+  <a class="nav-item " href="03-canvas.html" data-nav-item data-search="界面与画布 认识工具栏、画布、属性面板和时间轴，并掌握选择、变换、复制和自动平移。"><span>03</span>界面与画布</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">素材与文字</p>
+  <a class="nav-item " href="04-assets-svg.html" data-nav-item data-search="素材与 SVG 导入图片、GIF、音频和 SVG；理解矢量图、位图以及素材版权。"><span>04</span>素材与 SVG</a>
+<a class="nav-item " href="05-text-fonts.html" data-nav-item data-search="文字与字体 文字、竖排、打字机、字体选择、字体版权和 SVG 内部文字。"><span>05</span>文字与字体</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">动画</p>
+  <a class="nav-item " href="06-animation.html" data-nav-item data-search="动画与镜头 出现动画、消失动画、矢量描绘、位图描绘、复合淡入、时间和镜头。"><span>06</span>动画与镜头</a>
+<a class="nav-item active" href="07-hands-masks.html" data-nav-item data-search="手势与蒙版 内置与自定义手势、笔尖可视化取点，以及三种蒙版作用方式。"><span>07</span>手势与蒙版</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">内容元素</p>
+  <a class="nav-item " href="08-elements.html" data-nav-item data-search="图形、图表与学科元素 图形编辑器、图表、表格、二维码、思维导图、公式、分子结构和国际音标。"><span>08</span>图形与内容元素</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">资源</p>
+  <a class="nav-item " href="09-library-ai.html" data-nav-item data-search="素材库与 AI 本地素材库、VideoScribe 素材库、网络素材搜索和 AI 生成 SVG。"><span>09</span>素材库与 AI</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">输出</p>
+  <a class="nav-item " href="10-audio.html" data-nav-item data-search="音频与视频信息 两条音轨、音量与淡入淡出，以及导出前的视频信息。"><span>10</span>音频与元数据</a>
+<a class="nav-item " href="11-export.html" data-nav-item data-search="预览与导出 预览检查、导出设置、编码阶段、日志和失败排查。"><span>11</span>预览与导出</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">设置与排错</p>
+  <a class="nav-item " href="12-preferences.html" data-nav-item data-search="首选项与快捷键 默认值、自动保存、启动行为、素材来源、AI 配置和常用快捷键。"><span>12</span>首选项与快捷键</a>
+<a class="nav-item " href="13-troubleshooting.html" data-nav-item data-search="数据安全与故障处理 备份与恢复、素材丢失、导出卡住、黑屏、字体问题和性能排查。"><span>13</span>数据安全与排错</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">附录</p>
+  <a class="nav-item " href="14-workflow.html" data-nav-item data-search="制作流程与术语 从脚本到成片的工作流、镜头拆分、导出前检查和常用术语。"><span>14</span>制作流程与术语</a>
+</div>
+      <p class="sidebar-foot">NewScribe 是一款本地运行的<br>手绘白板动画制作工具。</p>
+    </aside>
+    <div class="sidebar-backdrop" data-sidebar-backdrop></div>
+    <main class="main" id="main">
+      <div class="breadcrumb"><a href="index.html">帮助中心</a> / 手势与蒙版</div>
+      <div class="page-layout">
+        <article class="article">
+          <header class="page-hero">
+            <p class="eyebrow">NewScribe 用户帮助</p>
+            <h1>手势与蒙版</h1>
+            <p class="lede">内置与自定义手势、笔尖可视化取点，以及三种蒙版作用方式。</p>
+          </header>
+          <div class="content">
+            <div class="shot-grid"><figure class="shot"><img src="../assets/screenshots/preview-chalk.png" alt="预览中的粉笔手势矢量描绘" loading="lazy"><figcaption>预览会按时间轴播放握笔、描绘、停留和镜头变化。</figcaption></figure><figure class="shot"><img src="../assets/screenshots/hand-pivot.png" alt="可视化选择笔尖中心" loading="lazy"><figcaption>可视化取点：在图片上点击笔尖中心。</figcaption></figure><figure class="shot"><img src="../assets/screenshots/mask-specific.gif" alt="蒙版只挖空特定元素" loading="lazy"><figcaption>蒙版可以只作用于特定元素，露出它下面的内容。</figcaption></figure></div>
+            <hr>
+
+<div class="hand-grid">
+  <div class="hand-card"><img src="../assets/hands/hand.png" alt="右手手势"><strong>右手</strong><span>默认手势</span></div>
+  <div class="hand-card"><img src="../assets/hands/hand-marker.png" alt="马克笔手势"><strong>马克笔</strong><span>无标志 / 有标志</span></div>
+  <div class="hand-card"><img src="../assets/hands/hand-chalk.svg" alt="粉笔手势"><strong>粉笔</strong><span>适合黑板质感</span></div>
+  <div class="hand-card"><img src="../assets/hands/hand-pen.png" alt="钢笔手势"><strong>钢笔</strong><span>无标志 / 有标志</span></div>
+  <div class="hand-card"><img src="../assets/hands/hand-brush.png" alt="毛笔手势"><strong>毛笔</strong><span>无标志 / 有标志</span></div>
+</div>
+<h2 id="hands">10. 手势<a class="heading-anchor" href="#hands" aria-label="复制本段链接">#</a></h2>
+<p><span class="icon-term"><a href="07-hands-masks.html#hands"><img class="inline-icon" src="../assets/icons/hand.svg" alt="" loading="lazy">手势</a></span>是手绘动画里“让画面看起来像有人在画”的关键。矢量描绘和位图描绘两种动画支持手势。</p>
+<h3 id="内置手势">内置手势<a class="heading-anchor" href="#内置手势" aria-label="复制本段链接">#</a></h3>
+<p>NewScribe 内置了多种手势，例如右手、马克笔、粉笔、钢笔和毛笔。</p>
+<p>下图从左到右是这些默认手势的<span class="icon-term"><a href="11-export.html#preview"><img class="inline-icon" src="../assets/icons/preview.svg" alt="" loading="lazy">预览</a></span>；其中马克笔、钢笔和毛笔还区分有无标志的版本。</p>
+<p>可以选择“空白手势”关闭手势显示。</p>
+<h3 id="手势大小">手势大小<a class="heading-anchor" href="#手势大小" aria-label="复制本段链接">#</a></h3>
+<p>手势大小有两种模式：</p>
+<ul><li>随<span class="icon-term"><a href="06-animation.html#camera"><img class="inline-icon" src="../assets/icons/camera-frame.svg" alt="" loading="lazy">镜头</a></span>缩放</li><li>固定屏幕大小</li></ul>
+<p>“随镜头缩放”会让手势和画面一起变大变小；“固定屏幕大小”则让手势始终保持相对屏幕的视觉大小。</p>
+<p>还可以单独设置手势高度。</p>
+<h3 id="自定义手势">自定义手势<a class="heading-anchor" href="#自定义手势" aria-label="复制本段链接">#</a></h3>
+<p>可以导入 PNG、JPG 或 WebP 作为自定义手势。</p>
+<p>导入后可以：</p>
+<ul><li>选择笔尖位置</li><li>可视化取点</li><li>调整笔尖 X/Y</li><li>调整手势高度</li><li>应用到全部描绘元素</li></ul>
+<p>“可视化取点”会打开手势<span class="icon-term"><a href="04-assets-svg.html#assets"><img class="inline-icon" src="../assets/icons/image.svg" alt="" loading="lazy">图片</a></span>，你直接点击实际握笔/落笔的位置，软件会计算笔尖坐标。</p>
+<p>自定义手势<span class="icon-term"><a href="02-projects.html#save"><img class="inline-icon" src="../assets/icons/save.svg" alt="" loading="lazy">保存</a></span>在本机手势库中。保存为 <code>.nspkg</code> 时，使用到的自定义手势也会一起打包。</p>
+<hr>
+<h2 id="masks">11. 蒙版<a class="heading-anchor" href="#masks" aria-label="复制本段链接">#</a></h2>
+<p><span class="icon-term"><a href="07-hands-masks.html#masks"><img class="inline-icon" src="../assets/icons/mask.svg" alt="" loading="lazy">蒙版</a></span>用于遮住或挖空某个区域。蒙版形状有矩形和椭圆。蒙版有三种遮挡方式。</p>
+<h3 id="全部元素">全部元素<a class="heading-anchor" href="#全部元素" aria-label="复制本段链接">#</a></h3>
+<p>蒙版覆盖所有元素，包括蒙版之前和之后的元素。范围内只显示背景。</p>
+<p>适合固定挖空、遮住全部内容。</p>
+<h3 id="之前的全部元素">之前的全部元素<a class="heading-anchor" href="#之前的全部元素" aria-label="复制本段链接">#</a></h3>
+<p>只遮住蒙版出现之前已经存在的元素。蒙版之后的新元素可以正常画在蒙版上面。</p>
+<p>适合擦掉旧内容、保留后续新内容。</p>
+<h3 id="特定元素">特定元素<a class="heading-anchor" href="#特定元素" aria-label="复制本段链接">#</a></h3>
+<p>只影响选中的目标元素，其他元素完全不受影响。</p>
+<p>适合只让某张图片消失、只遮住某个<span class="icon-term"><a href="05-text-fonts.html#text"><img class="inline-icon" src="../assets/icons/text.svg" alt="" loading="lazy">文字</a></span>。</p>
+<h3 id="蒙版动画">蒙版动画<a class="heading-anchor" href="#蒙版动画" aria-label="复制本段链接">#</a></h3>
+<p>蒙版本身也可以设置出现、停留、消失和切换。编辑器显示静态蒙版范围，预览和导出显示动画效果。</p>
+<hr>
+<h2 id="进一步说明-手势是表演的一部分">进一步说明：手势是表演的一部分<a class="heading-anchor" href="#进一步说明-手势是表演的一部分" aria-label="复制本段链接">#</a></h2>
+<p>手势不是装饰，它决定了动画的“表演感”。</p>
+<p>同一段矢量描绘，使用不同的手势、手势大小和移动速度，观感会完全不同。手指点得太快，会显得匆忙；手势太大，会遮住内容；手势太小，又失去存在感。</p>
+<p>选择手势时，先看内容风格。教学、儿童内容可以用马克笔或粉笔；商务、简洁风格可以用钢笔；传统或艺术题材可以用毛笔。不确定时，右手或钢笔是比较安全的默认选择。</p>
+<h2 id="手势大小模式怎么选">手势大小模式怎么选<a class="heading-anchor" href="#手势大小模式怎么选" aria-label="复制本段链接">#</a></h2>
+<p>“随镜头缩放”会让手势和画面一起变大变小。镜头拉近时，手势也跟着变大，像真实镜头在拍摄桌面。它适合大多数白板动画。</p>
+<p>“固定屏幕大小”会让手势在屏幕上保持相对稳定的大小。无论镜头怎么缩放，手势都不会突然变成巨手。它适合镜头变化较大、需要保持画面干净的项目。</p>
+<p>如果手势在镜头拉近时遮住太多内容，可以改用固定屏幕大小，或者降低手势高度。</p>
+<h2 id="自定义手势的取点">自定义手势的取点<a class="heading-anchor" href="#自定义手势的取点" aria-label="复制本段链接">#</a></h2>
+<p>自定义手势最重要的是笔尖位置。</p>
+<p>如果笔尖偏了，描绘时会出现“手在画，但笔尖不在线上”的错位。使用“可视化取点”，直接在图片上点击实际落笔的位置，比手动输入 X/Y 更可靠。</p>
+<p>导入手势图片时，建议使用透明背景的 PNG。JPG 的白色背景会变成手的方形底板，看起来不自然。</p>
+<p>手势图片不需要特别大。过大的图片会占用内存，但显示尺寸由手势高度控制。</p>
+<h2 id="手势应用范围">手势应用范围<a class="heading-anchor" href="#手势应用范围" aria-label="复制本段链接">#</a></h2>
+<p>手势可以应用到单个元素，也可以使用“应用到全部”，统一所有描绘元素的手势。</p>
+<p>统一手势适合风格一致的项目。不同章节使用不同手势也可以，但要注意不要让观众觉得风格跳变。</p>
+<h2 id="蒙版选择哪一种">蒙版选择哪一种<a class="heading-anchor" href="#蒙版选择哪一种" aria-label="复制本段链接">#</a></h2>
+<p>蒙版有三种作用方式，选择错误会导致“为什么其他元素也被盖住了”。</p>
+<p>如果你希望蒙版范围内的所有内容都消失，包括后面才出现的元素，选择“全部元素”。</p>
+<p>如果你只想擦掉已经画好的旧内容，让后续内容继续叠加，选择“之前的全部元素”。</p>
+<p>如果你只想让某一个图片或文字消失，不影响周围任何元素，选择“特定元素”。</p>
+<p>特定元素蒙版是最安全的“局部消失”方式。它适合做“揭晓”“替换”“隐藏答案”等效果。</p>
+<h2 id="蒙版和镜头的关系">蒙版和镜头的关系<a class="heading-anchor" href="#蒙版和镜头的关系" aria-label="复制本段链接">#</a></h2>
+<p>蒙版的位置是在画布世界坐标里定义的，不是固定在屏幕上。</p>
+<p>镜头移动时，蒙版会跟着画面一起移动。如果蒙版看起来“跑偏了”，先检查它的位置和机位，而不是只看预览。</p>
+<p>蒙版本身也可以设置出现和消失。它的淡入、缩放、移动会改变遮挡范围的动画，而不是改变被遮元素的动画。</p>
+<h2 id="蒙版和层级">蒙版和层级<a class="heading-anchor" href="#蒙版和层级" aria-label="复制本段链接">#</a></h2>
+<p>蒙版在时间轴中的位置决定了它影响哪些元素。</p>
+<p>“之前的全部元素”只影响蒙版之前的元素；“全部元素”会影响它之后的新元素。调整蒙版在时间轴中的位置，可能会改变最终效果。</p>
+<p>如果蒙版没有按预期遮住内容，先检查它在时间轴里的顺序。</p>
+<h2 id="常见蒙版误用">常见蒙版误用<a class="heading-anchor" href="#常见蒙版误用" aria-label="复制本段链接">#</a></h2>
+<p>用“全部元素”蒙版去遮一个特定图片，结果把周围元素也盖住了。应该改用“特定元素”。</p>
+<p>用“特定元素”蒙版去擦除已经画好的旧内容，结果只擦掉了目标元素，旧内容还在。应该改用“之前的全部元素”。</p>
+<p>把蒙版做得太大，覆盖了输出框外的大量区域。虽然不一定出错，但会增加渲染负担，也不利于精确控制。</p>
+<h2 id="蒙版淡入的预览">蒙版淡入的预览<a class="heading-anchor" href="#蒙版淡入的预览" aria-label="复制本段链接">#</a></h2>
+<p>编辑页面显示的是静态蒙版范围；真正的淡入、缩放、移动要在预览和导出中看。</p>
+<p>如果预览中蒙版效果和编辑页面不一致，先确认当前时间点是否在蒙版的动画区间内，再检查蒙版的出现、停留和消失设置。</p>
+            
+            <nav class="pager" aria-label="Chapter navigation">
+  <a href="06-animation.html"><small>上一篇</small>动画与镜头</a>
+  <a class="next" href="08-elements.html"><small>下一篇</small>图形与内容元素</a>
+</nav>
+          </div>
+        </article>
+        <aside class="page-toc">
+  <p class="page-toc-title">本页目录</p>
+  <a href="#hands" class="">手势</a>
+<a href="#内置手势" class="toc-sub">内置手势</a>
+<a href="#手势大小" class="toc-sub">手势大小</a>
+<a href="#自定义手势" class="toc-sub">自定义手势</a>
+<a href="#masks" class="">蒙版</a>
+<a href="#全部元素" class="toc-sub">全部元素</a>
+<a href="#之前的全部元素" class="toc-sub">之前的全部元素</a>
+<a href="#特定元素" class="toc-sub">特定元素</a>
+<a href="#蒙版动画" class="toc-sub">蒙版动画</a>
+<a href="#进一步说明-手势是表演的一部分" class="">进一步说明：手势是表演的一部分</a>
+<a href="#手势大小模式怎么选" class="">手势大小模式怎么选</a>
+<a href="#自定义手势的取点" class="">自定义手势的取点</a>
+<a href="#手势应用范围" class="">手势应用范围</a>
+<a href="#蒙版选择哪一种" class="">蒙版选择哪一种</a>
+<a href="#蒙版和镜头的关系" class="">蒙版和镜头的关系</a>
+<a href="#蒙版和层级" class="">蒙版和层级</a>
+<a href="#常见蒙版误用" class="">常见蒙版误用</a>
+<a href="#蒙版淡入的预览" class="">蒙版淡入的预览</a>
+</aside>
+      </div>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>NewScribe 用户帮助 · 本地优先的白板动画工具</span>
+      <span><a href="index.html">目录</a> · <a href="../en/07-hands-masks.html">EN</a> · <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a></span>
+    </div>
+  </footer>
+  <script src="../assets/help.js"></script>
+</body>
+</html>

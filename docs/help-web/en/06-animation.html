@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animation and camera · NewScribe Help Center</title>
+  <meta name="description" content="Appearances, disappearances, vector and bitmap draw, composite fade, timing and camera.">
+  <link rel="icon" href="../assets/icons/newscribe-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/help.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="../assets/icons/newscribe-logo.svg" alt="">
+      <span><strong>NewScribe</strong><small>Help Center</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="Help categories"><a href="01-start.html" class="">Start</a><a href="02-projects.html" class="">Projects</a><a href="03-canvas.html" class="">Editing</a><a href="04-assets-svg.html" class="">Assets</a><a href="06-animation.html" class="active">Animation</a><a href="11-export.html" class="">Export</a><a href="12-preferences.html" class="">Settings</a><a href="13-troubleshooting.html" class="">Troubleshoot</a></nav>
+    <div class="top-actions">
+      <a class="about-link" href="about.html">About</a>
+      <a class="lang-switch" href="../zh/06-animation.html" title="Chinese help" aria-label="Chinese help"><img src="../assets/icons/translate.svg" alt=""></a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open contents" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-title">Help contents</p>
+      <input class="sidebar-search" type="search" placeholder="Filter chapters…" aria-label="Filter chapters" data-nav-search>
+      <div class="sidebar-group">
+  <p class="sidebar-group-label">Start</p>
+  <a class="nav-item " href="01-start.html" data-nav-item data-search="Getting started What NewScribe is, what it does not do, and the first steps of a new project."><span>01</span>First steps</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Projects</p>
+  <a class="nav-item " href="02-projects.html" data-nav-item data-search="Project formats and saving Local projects, share packages and VideoScribe imports, plus saving, backup and recovery."><span>02</span>Projects and files</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Editing</p>
+  <a class="nav-item " href="03-canvas.html" data-nav-item data-search="Interface and canvas The toolbar, canvas, inspector and timeline; selecting, transforming, copying and auto-pan."><span>03</span>Interface and canvas</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Assets and text</p>
+  <a class="nav-item " href="04-assets-svg.html" data-nav-item data-search="Assets and SVG Images, GIFs, audio and SVG; vector versus bitmap, SVG basics and asset licensing."><span>04</span>Assets and SVG</a>
+<a class="nav-item " href="05-text-fonts.html" data-nav-item data-search="Text and fonts Text, vertical layout, typewriter, font selection, licensing and SVG text."><span>05</span>Text and fonts</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Animation</p>
+  <a class="nav-item active" href="06-animation.html" data-nav-item data-search="Animation and camera Appearances, disappearances, vector and bitmap draw, composite fade, timing and camera."><span>06</span>Animation and camera</a>
+<a class="nav-item " href="07-hands-masks.html" data-nav-item data-search="Hands and masks Built-in and custom hands, visual pen-tip picking, and the three mask modes."><span>07</span>Hands and masks</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Content</p>
+  <a class="nav-item " href="08-elements.html" data-nav-item data-search="Shapes, charts and subject elements Shape editor, charts, tables, QR codes, mind maps, formulas, molecules and IPA."><span>08</span>Shapes and content</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Library</p>
+  <a class="nav-item " href="09-library-ai.html" data-nav-item data-search="Library and AI Local libraries, VideoScribe library, web asset search and AI-generated SVG."><span>09</span>Library and AI</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Output</p>
+  <a class="nav-item " href="10-audio.html" data-nav-item data-search="Audio and video information Two tracks, volume and fades, plus the video information written at export."><span>10</span>Audio and metadata</a>
+<a class="nav-item " href="11-export.html" data-nav-item data-search="Preview and export Preview checks, export settings, stages, logs and failure diagnosis."><span>11</span>Preview and export</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Settings and troubleshooting</p>
+  <a class="nav-item " href="12-preferences.html" data-nav-item data-search="Preferences and shortcuts Defaults, autosave, startup, sources, AI configuration and shortcuts."><span>12</span>Preferences and shortcuts</a>
+<a class="nav-item " href="13-troubleshooting.html" data-nav-item data-search="Data safety and troubleshooting Backup and recovery, missing assets, stuck exports, black frames, fonts and performance."><span>13</span>Safety and troubleshooting</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Appendix</p>
+  <a class="nav-item " href="14-workflow.html" data-nav-item data-search="Production workflow and glossary From script to final cut, shot design, checks and common terms."><span>14</span>Workflow and glossary</a>
+</div>
+      <p class="sidebar-foot">NewScribe is a local-first<br>whiteboard animation tool.</p>
+    </aside>
+    <div class="sidebar-backdrop" data-sidebar-backdrop></div>
+    <main class="main" id="main">
+      <div class="breadcrumb"><a href="index.html">Help Center</a> / Animation and camera</div>
+      <div class="page-layout">
+        <article class="article">
+          <header class="page-hero">
+            <p class="eyebrow">NewScribe user help</p>
+            <h1>Animation and camera</h1>
+            <p class="lede">Appearances, disappearances, vector and bitmap draw, composite fade, timing and camera.</p>
+          </header>
+          <div class="content">
+            <figure class="shot"><img src="../assets/screenshots/chalk-draw.gif" alt="Chalk hand with vector drawing" loading="lazy"><figcaption>A chalk hand with vector draw: the pen tip follows the SVG path.</figcaption></figure>
+            
+<div class="icon-grid">
+  <div class="icon-card"><img src="../assets/icons/camera-frame.svg" alt="">Fixed camera / camera pose</div>
+  <div class="icon-card"><img src="../assets/icons/save.svg" alt="">Save</div>
+  <div class="icon-card"><img src="../assets/icons/export.svg" alt="">Export video</div>
+  <div class="icon-card"><img src="../assets/icons/preview.svg" alt="">Preview</div>
+  <div class="icon-card"><img src="../assets/icons/mask.svg" alt="">Mask</div>
+  <div class="icon-card"><img src="../assets/icons/hand.svg" alt="">Hand</div>
+  <div class="icon-card"><img src="../assets/icons/folder.svg" alt="">Library</div>
+  <div class="icon-card"><img src="../assets/icons/sparkles.svg" alt="">AI generate</div>
+</div>
+<h2 id="animation">9. Animation, timeline and camera<a class="heading-anchor" href="#animation" aria-label="复制本段链接">#</a></h2>
+<h3 id="appearance-modes">Appearance modes<a class="heading-anchor" href="#appearance-modes" aria-label="复制本段链接">#</a></h3>
+<p>NewScribe supports:</p>
+<ul><li>Fade</li><li>Move</li><li>Zoom</li><li>Spin</li><li>Unfold</li><li>Vector draw</li><li>Bitmap draw</li><li>Chart reveal</li><li>Typewriter</li></ul>
+<h3 id="vector-draw-and-bitmap-draw">Vector draw and bitmap draw<a class="heading-anchor" href="#vector-draw-and-bitmap-draw" aria-label="复制本段链接">#</a></h3>
+<p>Vector draw reads <span class="icon-term"><a href="04-assets-svg.html#svg">SVG</a></span> paths and strokes and follows their real order. It looks like someone tracing the outline. It is best for icons, line art, diagrams and clean vector artwork.</p>
+<p>Vector draw has a “stroke only” option. Without it, NewScribe draws the outline and then fills the filled areas, imitating a marker drawing that outlines and then colours. With it, NewScribe follows the paths only and does not add the fill pass. <span class="icon-term"><a href="https://en.wikipedia.org/wiki/VideoScribe" target="_blank" rel="noopener noreferrer">VideoScribe</a></span> SVG assets often already contain simulated fill paths; enable “stroke only” for those to avoid double painting.</p>
+<p>Bitmap draw reads pixels and creates a scribble or scan path. It works with PNG and JPG and with SVGs that cannot be parsed as clean paths. It looks more like painting the <span class="icon-term"><a href="04-assets-svg.html#assets"><img class="inline-icon" src="../assets/icons/image.svg" alt="" loading="lazy">image</a></span> onto the board.</p>
+<p>In short: vector draw traces lines; bitmap draw paints pixels.</p>
+<h3 id="composite-fade">Composite fade<a class="heading-anchor" href="#composite-fade" aria-label="复制本段链接">#</a></h3>
+<p>Every appearance mode except Fade itself can also enable “fade in too”. This combines transparency with movement, zoom, spin or unfold.</p>
+<p>Composite fade is useful for soft entrances. It can also make an entrance feel less crisp; use it deliberately.</p>
+<h3 id="disappear">Appearance and disappearance are separate<a class="heading-anchor" href="#disappear" aria-label="复制本段链接">#</a></h3>
+<p>An entrance controls how an element enters. A disappearance controls how it leaves. They are separate settings, not one animation played backwards.</p>
+<p>An element can appear without ever disappearing, or it can disappear later after a hold. The appearance and disappearance durations and modes are controlled independently.</p>
+<p>Disappearance is best for an element that appears briefly and then leaves quickly: a flash of information, a temporary highlight, a wrong answer or a decorative icon. It is not a good way to erase content that has been on screen for a long time. A long hold followed by a fade leaves the old content visible for too long and makes the pacing feel slow.</p>
+<p>To erase something that has been shown for a while and reveal the background underneath, use a <span class="icon-term"><a href="07-hands-masks.html#masks"><img class="inline-icon" src="../assets/icons/mask.svg" alt="" loading="lazy">mask</a></span>. A mask controls a covered region, not the whole element’s opacity. It is closer to wiping old content off a whiteboard; it can target one element or all previous elements.</p>
+<h3 id="disappear-choice">Hold, switch and disappearance<a class="heading-anchor" href="#disappear-choice" aria-label="复制本段链接">#</a></h3>
+<p>Each element has an appearance duration, a hold duration and a switch duration. If disappearance is enabled, it also has a disappearance duration and mode.</p>
+<p>On the timeline:</p>
+<pre><code>appear → hold → switch → next element</code></pre>
+<p>If an element has a disappearance, it happens after its own hold and before the switch. Check both the hold and the disappearance so the next element does not start while the previous one is still leaving.</p>
+<h3 id="camera">Camera<a class="heading-anchor" href="#camera" aria-label="复制本段链接">#</a></h3>
+<p>Each element can pin its <span class="icon-term"><a href="06-animation.html#camera"><img class="inline-icon" src="../assets/icons/camera-frame.svg" alt="" loading="lazy">camera</a></span>:</p>
+<ul><li>centre point</li><li>zoom</li></ul>
+<p>Pinning a camera can also be understood as fixing the view: the shot always looks at that position and scale. Without pinning, the camera moves smoothly from the previous element.</p>
+<p>For stable charts, diagrams and <span class="icon-term"><a href="05-text-fonts.html#text"><img class="inline-icon" src="../assets/icons/text.svg" alt="" loading="lazy">text</a></span>, pin the camera. For a continuous tour, let the camera move.</p>
+<h3 id="timeline">Timeline<a class="heading-anchor" href="#timeline" aria-label="复制本段链接">#</a></h3>
+<p>Use the timeline to arrange order first. Set approximate appearance and hold times for all elements, preview, and then refine the problem sections. Do not spend a long time micro-adjusting before the order is stable.</p>
+            <div class="external-links">
+  <h3>Related links</h3>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/VideoScribe" target="_blank" rel="noopener noreferrer">VideoScribe · English Wikipedia</a></li>
+  </ul>
+</div>
+            <nav class="pager" aria-label="Chapter navigation">
+  <a href="05-text-fonts.html"><small>Previous</small>Text and fonts</a>
+  <a class="next" href="07-hands-masks.html"><small>Next</small>Hands and masks</a>
+</nav>
+          </div>
+        </article>
+        <aside class="page-toc">
+  <p class="page-toc-title">On this page</p>
+  <a href="#animation" class="">Animation, timeline and camera</a>
+<a href="#appearance-modes" class="toc-sub">Appearance modes</a>
+<a href="#vector-draw-and-bitmap-draw" class="toc-sub">Vector draw and bitmap draw</a>
+<a href="#composite-fade" class="toc-sub">Composite fade</a>
+<a href="#disappear" class="toc-sub">Appearance and disappearance are separate</a>
+<a href="#disappear-choice" class="toc-sub">Hold, switch and disappearance</a>
+<a href="#camera" class="toc-sub">Camera</a>
+<a href="#timeline" class="toc-sub">Timeline</a>
+</aside>
+      </div>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>NewScribe user help · local-first whiteboard animation</span>
+      <span><a href="index.html">Contents</a> · <a href="../zh/06-animation.html">中文</a> · <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a></span>
+    </div>
+  </footer>
+  <script src="../assets/help.js"></script>
+</body>
+</html>

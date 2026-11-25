@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="24"
+   height="24"
+   fill="none"
+   stroke="#000000"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="右手手掌.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="33.625"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 16.381356,10.932116 V 5.8900962 c 0,-2.9132349 -0.793633,-3.576273 -1.711649,-3.576273 -0.918015,0 -1.513913,1.3827911 -1.61278,3.576273"
+     id="path1"
+     sodipodi:nodetypes="cssc"
+     style="stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 13.056927,9.9237123 V 3.8732882 A 1.6622147,2.0168081 0 0 0 11.394712,1.8564801 1.6622147,2.0168081 0 0 0 9.7324972,3.8732882 v 2.016808"
+     id="path2"
+     style="stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 9.7324972,10.427914 V 5.8900962 A 1.6622147,2.0168081 0 0 0 8.0702825,3.8732882 1.6622147,2.0168081 0 0 0 6.4080678,5.8900962 v 8.0672318"
+     id="path3"
+     style="stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 16.381356,7.9069043 c 0,-2.6890763 3.32443,-2.6890763 3.32443,0 v 6.0504237 c 0,4.455409 -2.976796,8.067232 -6.648859,8.067232 h -1.662215 c -2.3271007,0 -3.7399832,-0.867227 -4.9783331,-2.359665 L 3.4243924,16.03464 C 1.740971,13.626002 3.8927705,10.859567 5.7764262,13.190941 l 0.6625377,0.803874"
+     id="path4"
+     sodipodi:nodetypes="csssscccc"
+     style="stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

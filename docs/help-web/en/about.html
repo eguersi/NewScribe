@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About NewScribe · NewScribe Help Center</title>
+  <link rel="icon" href="../assets/icons/newscribe-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/help.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="../assets/icons/newscribe-logo.svg" alt="">
+      <span><strong>NewScribe</strong><small>Help Center</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="Help categories"><a href="01-start.html" class="">Start</a><a href="02-projects.html" class="">Projects</a><a href="03-canvas.html" class="">Editing</a><a href="04-assets-svg.html" class="">Assets</a><a href="06-animation.html" class="">Animation</a><a href="11-export.html" class="">Export</a><a href="12-preferences.html" class="">Settings</a><a href="13-troubleshooting.html" class="">Troubleshoot</a></nav>
+    <div class="top-actions">
+      <a class="about-link" href="about.html">About</a>
+      <a class="lang-switch" href="../zh/about.html" title="中文关于页" aria-label="中文关于页"><img src="../assets/icons/translate.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="main" id="main">
+    <div class="landing about-page">
+      <section class="about-card">
+        <p class="eyebrow">NewScribe · About</p>
+        <h1>Turn an idea into a drawn video.</h1>
+        <p class="about-lede">NewScribe is a local-first whiteboard animation studio. It places images, SVG, text, shapes, charts, formulas, molecules and phonetic symbols on one canvas, animates them with a deterministic camera timeline, and exports MP4.</p>
+        <div class="about-actions">
+          <a class="button" href="index.html">Open the Help Center</a>
+          <a class="button ghost" href="../zh/index.html">中文帮助</a>
+        </div>
+      </section>
+
+      <section class="about-card">
+        <h2>Technology</h2>
+        <p>The desktop app uses <a href="https://www.electronjs.org/" target="_blank" rel="noopener noreferrer">Electron</a> main and preload processes; the interface uses <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>. The canvas uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" target="_blank" rel="noopener noreferrer">Canvas 2D</a> for deterministic frames, with <a href="https://github.com/pmndrs/zustand" target="_blank" rel="noopener noreferrer">Zustand</a>.</p>
+        <p>Export uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API" target="_blank" rel="noopener noreferrer">WebCodecs</a> and <a href="https://github.com/Vanilagy/mp4-muxer" target="_blank" rel="noopener noreferrer">mp4-muxer</a> to encode H.264/AAC and mux MP4. Formulas use <a href="https://www.mathjax.org/" target="_blank" rel="noopener noreferrer">MathJax</a> and <a href="https://mhchem.github.io/MathJax-mhchem/" target="_blank" rel="noopener noreferrer">mhchem</a>; molecules use <a href="https://www.rdkit.org/" target="_blank" rel="noopener noreferrer">RDKit</a> <a href="https://webassembly.org/" target="_blank" rel="noopener noreferrer">WebAssembly</a>; IPA uses <a href="https://fonts.google.com/noto/specimen/Noto+Sans" target="_blank" rel="noopener noreferrer">Noto Sans</a>.</p>
+      </section>
+
+      <section class="about-card">
+        <h2>Credits and licenses</h2>
+        <p>Thanks to these open-source projects. Licences and copyright remain with their authors.</p>
+        <p>
+          <a href="https://www.mathjax.org/" target="_blank" rel="noopener noreferrer">MathJax</a>
+          / <a href="https://mhchem.github.io/MathJax-mhchem/" target="_blank" rel="noopener noreferrer">mhchem</a>
+          (Apache-2.0) · <a href="https://www.rdkit.org/" target="_blank" rel="noopener noreferrer">RDKit</a>
+          / <a href="https://github.com/rdkit/rdkit-js" target="_blank" rel="noopener noreferrer">@rdkit/rdkit</a>
+          (BSD-3-Clause) · <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>,
+          <a href="https://www.electronjs.org/" target="_blank" rel="noopener noreferrer">Electron</a>,
+          <a href="https://github.com/pmndrs/zustand" target="_blank" rel="noopener noreferrer">Zustand</a>,
+          <a href="https://github.com/101arrowz/fflate" target="_blank" rel="noopener noreferrer">fflate</a>,
+          <a href="https://github.com/kazuhikoarase/qrcode-generator" target="_blank" rel="noopener noreferrer">qrcode-generator</a>,
+          <a href="https://github.com/Vanilagy/mp4-muxer" target="_blank" rel="noopener noreferrer">mp4-muxer</a>
+          (MIT) · <a href="https://fonts.google.com/noto/specimen/Noto+Sans" target="_blank" rel="noopener noreferrer">Noto Sans</a>
+          (SIL OFL-1.1)
+        </p>
+      </section>
+
+      <section class="about-card">
+        <h2>Project, author and license</h2>
+        <p>NewScribe 0.1.1 · Author: 祝鱼贵 (Eguersi) · MIT License</p>
+        <p>
+          <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a>
+          · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a>
+          · <a href="https://github.com/eguersi/NewScribe/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>
+        </p>
+        <p>NewScribe is inspired by Sparkol VideoScribe but contains no VideoScribe code. The code was made with the DeepSeek V4.1 Flash 1017 model in a Vibe Coding workflow. The NewScribe logo and the three file-format icons were designed by Eguersi.</p>
+        <p>
+          <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">If NewScribe is useful, please leave a Star on GitHub.</a>
+        </p>
+        <details class="license-details">
+          <summary>MIT License text</summary>
+          <pre class="license-text">MIT License
+
+Copyright (c) 2026 祝鱼贵 (Eguersi)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</pre>
+        </details>
+      </section>
+
+      <section class="about-card about-footer-card">
+        <span>NewScribe · local-first whiteboard animation</span>
+        <a class="button ghost" href="index.html">Back to help</a>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>NewScribe user help · local-first whiteboard animation</span>
+      <span><a href="index.html">Contents</a> · <a href="../zh/about.html">中文</a> · <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a></span>
+    </div>
+  </footer>
+  <script src="../assets/help.js"></script>
+</body>
+</html>

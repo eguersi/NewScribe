@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interface and canvas · NewScribe Help Center</title>
+  <meta name="description" content="The toolbar, canvas, inspector and timeline; selecting, transforming, copying and auto-pan.">
+  <link rel="icon" href="../assets/icons/newscribe-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/help.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="../assets/icons/newscribe-logo.svg" alt="">
+      <span><strong>NewScribe</strong><small>Help Center</small></span>
+    </a>
+    <nav class="top-tabs" aria-label="Help categories"><a href="01-start.html" class="">Start</a><a href="02-projects.html" class="">Projects</a><a href="03-canvas.html" class="active">Editing</a><a href="04-assets-svg.html" class="">Assets</a><a href="06-animation.html" class="">Animation</a><a href="11-export.html" class="">Export</a><a href="12-preferences.html" class="">Settings</a><a href="13-troubleshooting.html" class="">Troubleshoot</a></nav>
+    <div class="top-actions">
+      <a class="about-link" href="about.html">About</a>
+      <a class="lang-switch" href="../zh/03-canvas.html" title="Chinese help" aria-label="Chinese help"><img src="../assets/icons/translate.svg" alt=""></a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open contents" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-title">Help contents</p>
+      <input class="sidebar-search" type="search" placeholder="Filter chapters…" aria-label="Filter chapters" data-nav-search>
+      <div class="sidebar-group">
+  <p class="sidebar-group-label">Start</p>
+  <a class="nav-item " href="01-start.html" data-nav-item data-search="Getting started What NewScribe is, what it does not do, and the first steps of a new project."><span>01</span>First steps</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Projects</p>
+  <a class="nav-item " href="02-projects.html" data-nav-item data-search="Project formats and saving Local projects, share packages and VideoScribe imports, plus saving, backup and recovery."><span>02</span>Projects and files</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Editing</p>
+  <a class="nav-item active" href="03-canvas.html" data-nav-item data-search="Interface and canvas The toolbar, canvas, inspector and timeline; selecting, transforming, copying and auto-pan."><span>03</span>Interface and canvas</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Assets and text</p>
+  <a class="nav-item " href="04-assets-svg.html" data-nav-item data-search="Assets and SVG Images, GIFs, audio and SVG; vector versus bitmap, SVG basics and asset licensing."><span>04</span>Assets and SVG</a>
+<a class="nav-item " href="05-text-fonts.html" data-nav-item data-search="Text and fonts Text, vertical layout, typewriter, font selection, licensing and SVG text."><span>05</span>Text and fonts</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Animation</p>
+  <a class="nav-item " href="06-animation.html" data-nav-item data-search="Animation and camera Appearances, disappearances, vector and bitmap draw, composite fade, timing and camera."><span>06</span>Animation and camera</a>
+<a class="nav-item " href="07-hands-masks.html" data-nav-item data-search="Hands and masks Built-in and custom hands, visual pen-tip picking, and the three mask modes."><span>07</span>Hands and masks</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Content</p>
+  <a class="nav-item " href="08-elements.html" data-nav-item data-search="Shapes, charts and subject elements Shape editor, charts, tables, QR codes, mind maps, formulas, molecules and IPA."><span>08</span>Shapes and content</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Library</p>
+  <a class="nav-item " href="09-library-ai.html" data-nav-item data-search="Library and AI Local libraries, VideoScribe library, web asset search and AI-generated SVG."><span>09</span>Library and AI</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Output</p>
+  <a class="nav-item " href="10-audio.html" data-nav-item data-search="Audio and video information Two tracks, volume and fades, plus the video information written at export."><span>10</span>Audio and metadata</a>
+<a class="nav-item " href="11-export.html" data-nav-item data-search="Preview and export Preview checks, export settings, stages, logs and failure diagnosis."><span>11</span>Preview and export</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Settings and troubleshooting</p>
+  <a class="nav-item " href="12-preferences.html" data-nav-item data-search="Preferences and shortcuts Defaults, autosave, startup, sources, AI configuration and shortcuts."><span>12</span>Preferences and shortcuts</a>
+<a class="nav-item " href="13-troubleshooting.html" data-nav-item data-search="Data safety and troubleshooting Backup and recovery, missing assets, stuck exports, black frames, fonts and performance."><span>13</span>Safety and troubleshooting</a>
+</div>
+<div class="sidebar-group">
+  <p class="sidebar-group-label">Appendix</p>
+  <a class="nav-item " href="14-workflow.html" data-nav-item data-search="Production workflow and glossary From script to final cut, shot design, checks and common terms."><span>14</span>Workflow and glossary</a>
+</div>
+      <p class="sidebar-foot">NewScribe is a local-first<br>whiteboard animation tool.</p>
+    </aside>
+    <div class="sidebar-backdrop" data-sidebar-backdrop></div>
+    <main class="main" id="main">
+      <div class="breadcrumb"><a href="index.html">Help Center</a> / Interface and canvas</div>
+      <div class="page-layout">
+        <article class="article">
+          <header class="page-hero">
+            <p class="eyebrow">NewScribe user help</p>
+            <h1>Interface and canvas</h1>
+            <p class="lede">The toolbar, canvas, inspector and timeline; selecting, transforming, copying and auto-pan.</p>
+          </header>
+          <div class="content">
+            <figure class="shot"><img src="../assets/screenshots/editor-light-en.png" alt="NewScribe canvas, inspector and timeline" loading="lazy"><figcaption>The blue output frame, orange element bounds and brown dashed mask frame in the light editor.</figcaption></figure>
+            
+<div class="icon-grid">
+  <div class="icon-card"><img src="../assets/icons/camera-frame.svg" alt="">Fixed camera / camera pose</div>
+  <div class="icon-card"><img src="../assets/icons/save.svg" alt="">Save</div>
+  <div class="icon-card"><img src="../assets/icons/export.svg" alt="">Export video</div>
+  <div class="icon-card"><img src="../assets/icons/preview.svg" alt="">Preview</div>
+  <div class="icon-card"><img src="../assets/icons/mask.svg" alt="">Mask</div>
+  <div class="icon-card"><img src="../assets/icons/hand.svg" alt="">Hand</div>
+  <div class="icon-card"><img src="../assets/icons/folder.svg" alt="">Library</div>
+  <div class="icon-card"><img src="../assets/icons/sparkles.svg" alt="">AI generate</div>
+</div>
+<h2 id="section-4">4. Main interface<a class="heading-anchor" href="#section-4" aria-label="复制本段链接">#</a></h2>
+<p>NewScribe has four main areas:</p>
+<ul><li>The toolbar contains <span class="icon-term"><a href="01-start.html#quick-start"><img class="inline-icon" src="../assets/icons/new-document.svg" alt="" loading="lazy">New</a></span>, Open, <span class="icon-term"><a href="02-projects.html#save"><img class="inline-icon" src="../assets/icons/save.svg" alt="" loading="lazy">Save</a></span>, Import, <span class="icon-term"><a href="05-text-fonts.html#text"><img class="inline-icon" src="../assets/icons/text.svg" alt="" loading="lazy">Text</a></span>, Shapes, Charts, <span class="icon-term"><a href="11-export.html#preview"><img class="inline-icon" src="../assets/icons/preview.svg" alt="" loading="lazy">Preview</a></span>, <span class="icon-term"><a href="11-export.html#export"><img class="inline-icon" src="../assets/icons/export.svg" alt="" loading="lazy">Export</a></span>, Preferences and Help.</li><li>The canvas is the editing area. The blue frame is the output frame.</li><li>The right panel changes according to the selected element.</li><li>The timeline at the bottom controls order and timing.</li></ul>
+<p>Most options apply to the <strong>currently selected element</strong>. If an option seems to be missing, check what is selected and which tab is open.</p>
+<h2 id="section-5">5. Canvas and element operations<a class="heading-anchor" href="#section-5" aria-label="复制本段链接">#</a></h2>
+<h3 id="zoom-and-pan">Zoom and pan<a class="heading-anchor" href="#zoom-and-pan" aria-label="复制本段链接">#</a></h3>
+<p>Use the mouse wheel to zoom and drag empty canvas space to pan.</p>
+<ul><li><code>+</code> / <code>-</code>: zoom</li><li>Arrow keys: pan</li><li>Space + drag: pan</li><li>Shift + wheel: horizontal pan</li><li>Ctrl + wheel: vertical pan</li><li>Alt + wheel: cycle elements</li></ul>
+<h3 id="edge-auto-pan">Edge auto-pan<a class="heading-anchor" href="#edge-auto-pan" aria-label="复制本段链接">#</a></h3>
+<p>Drag an element near the edge of the visible area. The view starts panning in that direction, faster as you approach the edge. This lets you place an element far outside the current view without releasing the mouse.</p>
+<h3 id="select-resize-and-rotate">Select, resize and rotate<a class="heading-anchor" href="#select-resize-and-rotate" aria-label="复制本段链接">#</a></h3>
+<p>Click an element to select it. Ctrl-click adds to the selection. Ctrl+A selects all.</p>
+<p>Drag the handles to resize. Hold Shift to keep proportions. Drag the top dot to rotate; Shift snaps to 15°.</p>
+<h3 id="copy-paste-and-duplicate">Copy, paste and Duplicate<a class="heading-anchor" href="#copy-paste-and-duplicate" aria-label="复制本段链接">#</a></h3>
+<p><code>Ctrl+C</code> and <code>Ctrl+V</code> use the most recent clipboard content, including supported external content.</p>
+<p>“Duplicate” in the context menu is independent of both clipboards. It copies only the element you right-clicked. It does not read or write the clipboard, so it will not affect the next paste.</p>
+<h3 id="multi-selection">Multi-selection<a class="heading-anchor" href="#multi-selection" aria-label="复制本段链接">#</a></h3>
+<p>When several elements are selected, the right panel shows only properties that can be changed together. Values that differ appear as “multiple values”; entering a value applies it to all selected elements.</p>
+<h3 id="screenshots-and-interface-icons">Screenshots and interface icons<a class="heading-anchor" href="#screenshots-and-interface-icons" aria-label="复制本段链接">#</a></h3>
+<p>The help site uses the same icons as the application, so the camera-frame icon, <span class="icon-term"><a href="02-projects.html#save"><img class="inline-icon" src="../assets/icons/save.svg" alt="" loading="lazy">save</a></span> icon, <span class="icon-term"><a href="07-hands-masks.html#masks"><img class="inline-icon" src="../assets/icons/mask.svg" alt="" loading="lazy">mask</a></span> icon and file-type icons are easy to recognize while following the instructions.</p>
+<h2 id="appearance-background-and-canvas-bounds">Appearance, background and canvas bounds<a class="heading-anchor" href="#appearance-background-and-canvas-bounds" aria-label="复制本段链接">#</a></h2>
+<h3 id="appearance">Appearance<a class="heading-anchor" href="#appearance" aria-label="复制本段链接">#</a></h3>
+<p>NewScribe supports dark, light and follow-system themes. The accent colour can also be changed (for example amber, blue, mint, violet or rose), and toolbar density controls how tightly the interface is packed.</p>
+<p>These settings change only the editor. They do not change the project contents or the exported video. When choosing colours, check the preview again so the editor theme does not mislead you, especially on light backgrounds or low-contrast scenes.</p>
+<h3 id="background">Background<a class="heading-anchor" href="#background" aria-label="复制本段链接">#</a></h3>
+<p>The canvas background can be a solid colour, a texture or an <span class="icon-term"><a href="04-assets-svg.html#assets"><img class="inline-icon" src="../assets/icons/image.svg" alt="" loading="lazy">image</a></span>.</p>
+<p>A background image can be stretched or tiled. It can be fixed to the frame or move with the <span class="icon-term"><a href="06-animation.html#camera"><img class="inline-icon" src="../assets/icons/camera-frame.svg" alt="" loading="lazy">camera</a></span>. A fixed background stays still while the camera moves, which suits paper, a wall or a stable texture. A camera-following background moves with the canvas and becomes part of the scene space.</p>
+<p>The background is not part of an element’s draw animation. If the background itself should be drawn, import the image as a normal element instead of only setting it as the background.</p>
+<h3 id="canvas-output-frame-and-zoom">Canvas, output frame and zoom<a class="heading-anchor" href="#canvas-output-frame-and-zoom" aria-label="复制本段链接">#</a></h3>
+<p>The editor shows a fixed-size canvas, but the canvas edge is not the limit of what can exist. Elements can be placed outside the canvas; as long as the final camera sees them, preview and export will still show them.</p>
+<p>By default, <strong>Preferences → Appearance → Show space outside the original canvas</strong> is on. The area outside the canvas then uses the current background colour and texture, making off-canvas elements easier to see and edit. Turn it off to return the outside area to the grey editor workspace.</p>
+<p>Keep zoom at a sensible level; zooming too far in or out may cause display problems.</p>
+<h3 id="mirroring-and-export">Mirroring and export<a class="heading-anchor" href="#mirroring-and-export" aria-label="复制本段链接">#</a></h3>
+<p>A selected element can be flipped horizontally in the inspector. Mirroring changes the display and export result, not the original asset file. Check readability before mirroring <span class="icon-term"><a href="05-text-fonts.html#text"><img class="inline-icon" src="../assets/icons/text.svg" alt="" loading="lazy">text</a></span> or formulas.</p>
+<p>Some elements can be exported separately as <span class="icon-term"><a href="04-assets-svg.html#svg">SVG</a></span>, especially vector content such as shapes, formulas, molecules and IPA. Use the export control available in the element panel.</p>
+            
+            <nav class="pager" aria-label="Chapter navigation">
+  <a href="02-projects.html"><small>Previous</small>Projects and files</a>
+  <a class="next" href="04-assets-svg.html"><small>Next</small>Assets and SVG</a>
+</nav>
+          </div>
+        </article>
+        <aside class="page-toc">
+  <p class="page-toc-title">On this page</p>
+  <a href="#section-4" class="">Main interface</a>
+<a href="#section-5" class="">Canvas and element operations</a>
+<a href="#zoom-and-pan" class="toc-sub">Zoom and pan</a>
+<a href="#edge-auto-pan" class="toc-sub">Edge auto-pan</a>
+<a href="#select-resize-and-rotate" class="toc-sub">Select, resize and rotate</a>
+<a href="#copy-paste-and-duplicate" class="toc-sub">Copy, paste and Duplicate</a>
+<a href="#multi-selection" class="toc-sub">Multi-selection</a>
+<a href="#screenshots-and-interface-icons" class="toc-sub">Screenshots and interface icons</a>
+<a href="#appearance-background-and-canvas-bounds" class="">Appearance, background and canvas bounds</a>
+<a href="#appearance" class="toc-sub">Appearance</a>
+<a href="#background" class="toc-sub">Background</a>
+<a href="#canvas-output-frame-and-zoom" class="toc-sub">Canvas, output frame and zoom</a>
+<a href="#mirroring-and-export" class="toc-sub">Mirroring and export</a>
+</aside>
+      </div>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>NewScribe user help · local-first whiteboard animation</span>
+      <span><a href="index.html">Contents</a> · <a href="../zh/03-canvas.html">中文</a> · <a href="https://github.com/eguersi/NewScribe" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://github.com/eguersi/NewScribe/releases" target="_blank" rel="noopener noreferrer">Releases</a></span>
+    </div>
+  </footer>
+  <script src="../assets/help.js"></script>
+</body>
+</html>
