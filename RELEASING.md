@@ -37,8 +37,8 @@ release/
 需要上传：
 
 ```text
-NewScribe-0.1.1-setup.exe
-NewScribe-0.1.1-portable.exe
+NewScribe-0.1.1-windows-x64-setup.exe
+NewScribe-0.1.1-windows-x64-portable.exe
 ```
 
 `setup.exe` 是安装版，`portable.exe` 是便携版。
@@ -64,15 +64,15 @@ release/
 需要上传：
 
 ```text
-NewScribe-0.1.1-arm64.dmg
-NewScribe-0.1.1-x64.dmg
+NewScribe-0.1.1-macos-arm64.dmg
+NewScribe-0.1.1-macos-x64.dmg
 ```
 
 如果同时生成 ZIP，也可以上传：
 
 ```text
-NewScribe-0.1.1-arm64.zip
-NewScribe-0.1.1-x64.zip
+NewScribe-0.1.1-macos-arm64.zip
+NewScribe-0.1.1-macos-x64.zip
 ```
 
 Apple Silicon 使用 `arm64`，Intel Mac 使用 `x64`。
@@ -91,21 +91,21 @@ Apple Silicon 使用 `arm64`，Intel Mac 使用 `x64`。
 统一使用 ASCII、无空格、小写扩展名：
 
 ```text
-NewScribe-<version>-setup.exe
-NewScribe-<version>-portable.exe
-NewScribe-<version>-<arch>.dmg
-NewScribe-<version>-<arch>.zip
+NewScribe-<version>-windows-<arch>-setup.exe
+NewScribe-<version>-windows-<arch>-portable.exe
+NewScribe-<version>-macos-<arch>.dmg
+NewScribe-<version>-macos-<arch>.zip
 ```
 
 示例：
 
 ```text
-NewScribe-0.1.1-setup.exe
-NewScribe-0.1.1-portable.exe
-NewScribe-0.1.1-arm64.dmg
-NewScribe-0.1.1-x64.dmg
-NewScribe-0.1.1-arm64.zip
-NewScribe-0.1.1-x64.zip
+NewScribe-0.1.1-windows-x64-setup.exe
+NewScribe-0.1.1-windows-x64-portable.exe
+NewScribe-0.1.1-macos-arm64.dmg
+NewScribe-0.1.1-macos-x64.dmg
+NewScribe-0.1.1-macos-arm64.zip
+NewScribe-0.1.1-macos-x64.zip
 ```
 
 不要使用：
@@ -159,8 +159,8 @@ shasum -a 256 -c SHA256SUMS.txt
 
 ```bash
 gh release create v0.1.1 \
-  release/NewScribe-0.1.1-setup.exe \
-  release/NewScribe-0.1.1-portable.exe \
+  release/NewScribe-0.1.1-windows-x64-setup.exe \
+  release/NewScribe-0.1.1-windows-x64-portable.exe \
   release/SHA256SUMS.txt \
   --title "NewScribe 0.1.1" \
   --generate-notes
@@ -170,8 +170,8 @@ Mac 构建的 DMG 单独上传：
 
 ```bash
 gh release upload v0.1.1 \
-  release/NewScribe-0.1.1-arm64.dmg \
-  release/NewScribe-0.1.1-x64.dmg
+  release/NewScribe-0.1.1-macos-arm64.dmg \
+  release/NewScribe-0.1.1-macos-x64.dmg
 ```
 
 ## Release Notes 模板
@@ -192,10 +192,10 @@ gh release upload v0.1.1 \
 
 ## 下载
 
-- Windows 10/11 x64：`NewScribe-0.1.1-setup.exe`
-- Windows 便携版：`NewScribe-0.1.1-portable.exe`
-- macOS Apple Silicon：`NewScribe-0.1.1-arm64.dmg`
-- macOS Intel：`NewScribe-0.1.1-x64.dmg`
+- Windows 10/11 x64：`NewScribe-0.1.1-windows-x64-setup.exe`
+- Windows 便携版：`NewScribe-0.1.1-windows-x64-portable.exe`
+- macOS Apple Silicon：`NewScribe-0.1.1-macos-arm64.dmg`
+- macOS Intel：`NewScribe-0.1.1-macos-x64.dmg`
 
 ## 说明
 

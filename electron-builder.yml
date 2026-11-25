@@ -48,10 +48,10 @@ win:
     - target: portable
       arch:
         - x64
-  artifactName: ${productName}-${version}-setup.${ext}
+  artifactName: ${productName}-${version}-windows-${arch}-setup.${ext}
 
 portable:
-  artifactName: ${productName}-${version}-portable.${ext}
+  artifactName: ${productName}-${version}-windows-${arch}-portable.${ext}
 
 fileAssociations:
   - ext: nscribe
@@ -89,10 +89,10 @@ mac:
     - dmg
     - zip
   category: public.app-category.video
-  artifactName: ${productName}-${version}-${arch}.${ext}
+  artifactName: ${productName}-${version}-macos-${arch}.${ext}
   darkModeSupport: true
 
 dmg:
   icon: build/dmg-icon.icns
   title: ${productName} ${version}
-  artifactName: ${productName}-${version}-${arch}.${ext}
+  artifactName: ${productName}-${version}-macos-${arch}.${ext}

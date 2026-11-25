@@ -61,13 +61,18 @@ NewScribe 是一个**本地优先**的手绘白板动画工作台。它不替你
 
 安装包发布在 [GitHub Releases](https://github.com/eguersi/NewScribe/releases)。
 
-| 平台 | 状态 | 说明 |
+| 平台 | 版本 | 下载 |
 | --- | --- | --- |
-| Windows 10 / 11 x64 | 可构建 | NSIS 安装包；当前未签名，可能出现 SmartScreen 提示 |
-| macOS Apple Silicon / Intel | 可构建 | DMG / ZIP；正式分发需要 Developer ID 签名和公证 |
-| Linux | 尚未打包 | 需要补充 AppImage / deb 配置和实机测试 |
+| Windows 10 / 11 x64 | 0.1.1 | [NewScribe-0.1.1-windows-x64-setup.exe](https://github.com/eguersi/NewScribe/releases/download/v0.1.1/NewScribe-0.1.1-windows-x64-setup.exe) |
+| macOS Apple Silicon | 0.1.1 | [NewScribe-0.1.1-macos-arm64.dmg](https://github.com/eguersi/NewScribe/releases/download/v0.1.1/NewScribe-0.1.1-macos-arm64.dmg) |
+| macOS Intel | — | 暂未提供 |
+| Linux | — | 尚未打包 |
 
-> 如果 Releases 里还没有安装包，说明当前版本仍在准备发布。可以按下方步骤从源码运行。
+当前安装包说明：
+
+- Windows 安装包未签名，可能出现 SmartScreen“未知发布者”提示。
+- macOS 包为 ad-hoc 签名，首次打开请右键 → 打开。
+- 正式发布前仍需 Windows 代码签名和 macOS Developer ID 签名 / 公证。
 
 ## 快速开始
 
